@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile - Flixora</title>
+    <link rel="icon" href="../image/flixora_logo-removebg-preview.png" />
+    <link rel="stylesheet" href="profile.css" />
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="profile-header">
+        <h2>Premium Yearly Plan (Flixora) ➜</h2>
+        <p>+91 47*******9</p>
+
+        <div class="horizontal-line"></div>
+
+        <div class="profile-list">
+          <div class="profile-card" data-profile="RED HAIR">
+            <img src="../image/profile.jpg" alt="Profile" class="profile-pic" />
+            <p>Red Hair....</p>
+            <span class="checkmark">✔</span>
+          </div>
+          <div class="profile-card" data-profile="Kids">
+            <img src="../image/kids.jpg" alt="Profile" class="profile-pic" />
+            <p>Kids</p>
+            <span class="checkmark">✔</span>
+          </div>
+          <div class="profile-card add-profile">
+            <span>+</span>
+            <p>Add</p>
+          </div>
+        </div>
+
+        <button class="back-button">
+          <span class="iconify" data-icon="ic:round-arrow-back"></span>
+        </button>
+      </div>
+
+      <!-- Help & Settings Button -->
+      <div
+        class="help-settings"
+        id="helpSettingsBtn"
+        onclick="redirectToHelpSettings()"
+      >
+        <span class="iconify" data-icon="mdi:cog-outline"></span> Help &
+        Settings
+      </div>
+    </div>
+
+    <!-- Edit Profile Button -->
+   <!-- Edit Profile Button -->
+   <div class="edit-profile" onclick="redirectToEditProfile()">
+    <span class="iconify" data-icon="mdi:pencil-outline"></span> Edit
+</div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>

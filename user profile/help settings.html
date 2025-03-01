@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Settings - Flixora</title>
+    <link rel="stylesheet" href="help settings.css">
+    <link rel="icon" href="../image/flixora_logo-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Help & Settings</h2>
+            <button class="tab active" data-target="subscription">
+                <span class="iconify" data-icon="mdi:account"></span> Subscription & Devices
+            </button>
+            <button class="tab" data-target="parental">
+                <span class="iconify" data-icon="mdi:lock"></span> Parental Controls
+            </button>
+            <button class="tab" data-target="support">
+                <span class="iconify" data-icon="mdi:help-circle"></span> Help & Support
+            </button>
+            <button class="logout">Log Out</button>
+        </aside>
+        <main class="content">
+            <div class="panel active" id="subscription">
+                <h2>Subscription & Devices</h2>
+                <p>Manage Subscription & Devices</p>
+                
+
+
+                <div class="plan">
+                    <h3 class="plans">Premium Monthly Plan (Flixora) ➜</h3>
+                    <p class="expires">Plan expires in 42 days</p>
+                    <button class="view">View Benefits</button>
+                    <button class="pay">Payment Details</button>
+                </div>
+
+                <div class="horizontal-line"></div>
+
+                <div class="number">
+                    <div class="number-text">
+                        <p>Registered Mobile Number</p>
+                        <h5>+91 47*******9</h5>
+                    </div>
+                    <button class="update">Update</button>
+                </div>
+                
+                
+                <div class="device">
+                    <h3>This Device</h3>
+                    <div class="device-content">
+                        <div class="device-info">
+                            <i class="fas fa-laptop"></i>
+                            <div class="text">
+                                <p>Chrome Browser on Windows</p>
+                                <span>Last used: Today</span>
+                            </div>
+                        </div>
+                        <button class="small">Log Out</button>
+                    </div>
+                </div>
+                
+                <div class="horizontal-line2"></div>
+                
+                <div class="device">
+                    <h3>Other Devices</h3>
+                    <div class="device-content">
+                        <div class="device-info">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="text">
+                                <p>Android Phone/Tablet</p>
+                                <span>Last used: Yesterday</span>
+                            </div>
+                        </div>
+                        <button class="small">Log Out</button>
+                    </div>
+                </div>
+                
+                
+                <div class="horizontal-line3"></div>
+            </div>
+
+            <div class="panel" id="parental">
+                <h2>Parental Controls</h2>
+                <p>Restrict access to adult profiles with a PIN</p>
+                <label class="switch">
+                    <input type="checkbox" id="parentalLock">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="panel" id="support">
+                <h2>Help & Support</h2>
+                <div class="support-option">
+                    <p>Help Centre</p>
+                    <span class="iconify" data-icon="mdi:chevron-right"></span>
+                </div>
+                <div class="support-option">
+                    <p>Send us Feedback</p>
+                    <span class="iconify" data-icon="mdi:chevron-right"></span>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+
+
+    <!-- parents Controls -->
+
+<div class="modal" id="pinModal">
+    <div class="modal-content">
+        <button class="close">&times;</button> <!-- Close button inside -->
+        <div class="modal-header">
+            <div class="icon-container">
+                <span class="iconify" data-icon="mdi:security-lock" style="font-size: 40px;"></span>
+            </div>
+            <h2>Set Parental Lock</h2>
+            <p>Enter a 4-digit PIN to secure adult profiles.</p>
+        </div>
+        <div class="modal-body">
+            <div class="input-group">
+                <label>Create PIN</label>
+                <div class="pin-input">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                </div>
+            </div>
+            <div class="input-group">
+                <label>Confirm PIN</label>
+                <div class="pin-input">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                    <input type="password" maxlength="1">
+                </div>
+            </div>
+        </div>
+        <button class="continue-btn" disabled>Continue</button>
+    </div>
+</div>
+
+    
+
+    <script src="help settings.js"></script>
+</body>
+</html>
