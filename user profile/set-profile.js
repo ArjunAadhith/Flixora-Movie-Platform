@@ -1,15 +1,41 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const profileIcons = document.querySelectorAll(".profile-icon");
+function scrollLeftBtn() {
+    const profileList = document.getElementById("profileList");
+    if (profileList) {
+        profileList.scrollBy({ left: -200, behavior: "smooth" });
+    } else {
+        console.error("Element with ID 'profileList' not found.");
+    }
+}
 
-    profileIcons.forEach(icon => {
-        icon.addEventListener("click", function () {
-            document.querySelector(".selected")?.classList.remove("selected");
-            this.classList.add("selected");
-        });
+function scrollRightBtn() {
+    const profileList = document.getElementById("profileList");
+    if (profileList) {
+        profileList.scrollBy({ left: 200, behavior: "smooth" });
+    } else {
+        console.error("Element with ID 'profileList' not found.");
+    }
+}
+
+
+function selectProfile(element) {
+    document.querySelectorAll('.profile-icon').forEach(icon => {
+        icon.classList.remove('selected');
+        icon.querySelector('.check-mark').style.display = 'none';
     });
 
-    document.querySelector(".save-button").addEventListener("click", function () {
-        alert("Profile saved successfully!");
-        window.location.href = "profile.html";
-    });
-});
+    element.classList.add('selected');
+    element.querySelector('.check-mark').style.display = 'flex';
+
+    const container = document.getElementById('profileList');
+    if (container) {
+        const containerRect = container.getBoundingClientRect();
+        const elementRect = element.getBoundingClientRect();
+
+        const offset = (elementRect.left + elementRect.width / 2) - 
+                       (containerRect.left + containerRect.width / 2);
+
+        container.scrollBy({ left: offset, behavior: 'smooth' });
+    } else {
+        console.error("Element with ID 'profileList' not found.");
+    }
+}

@@ -4,40 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Profile - Flixora</title>
+    <link rel="icon" href="../image/flixora_logo-removebg-preview.png">
     <link rel="stylesheet" href="set-profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
 </head>
 <body>
     <div class="profile-edit-container">
         <h2 class="edit-title">Edit Profile</h2>
-
         <div class="profile-selection">
-            <button class="nav-button left">&lt;</button>
-            <div class="profile-list">
-                <div class="profile-icon selected">
-                    <img src="images/groot.png" alt="Profile 1">
-                    <span class="check-mark">✔</span>
+            <button class="nav-button left" onclick="scrollLeftBtn()"">
+                <span class="iconify" data-icon="ep:arrow-left-bold"></span>
+            </button>
+            <div class="profile-list" id="profileList">
+                <div class="profile-icon" onclick="selectProfile(this)">
+                    <img src="../image/profile.jpg" alt="Profile 1">
+                    <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span>
                 </div>
-                <div class="profile-icon"><img src="images/darth-vader.png" alt="Profile 2"></div>
-                <div class="profile-icon"><img src="images/finding-dory.png" alt="Profile 3"></div>
-                <div class="profile-icon"><img src="images/jasmine.png" alt="Profile 4"></div>
-                <div class="profile-icon"><img src="images/captain-america.png" alt="Profile 5"></div>
-                <div class="profile-icon"><img src="images/mickey-mouse.png" alt="Profile 6"></div>
-                <div class="profile-icon"><img src="images/elsa.png" alt="Profile 7"></div>
-                <div class="profile-icon"><img src="images/loki.png" alt="Profile 8"></div>
-                <div class="profile-icon"><img src="images/scarlet-witch.png" alt="Profile 9"></div>
-                <div class="profile-icon"><img src="images/tony-stark.png" alt="Profile 10"></div>
-                <div class="profile-icon"><img src="images/wanda.png" alt="Profile 11"></div>
-            </div>
-            <button class="nav-button right">&gt;</button>
-        </div>
 
+
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/kids.jpg" alt="Profile 2"><span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span></div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/45.png" alt="Profile 3"><span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span></div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/anime.jpg" alt="Profile 4"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/luca-avatar-WODP.png" alt="Profile 5"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/Mickey+Mouse.png" alt="Profile 6"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/101.png" alt="Profile 7"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/102.png" alt="Profile 8"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/106.png" alt="Profile 9"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/111.png" alt="Profile 10"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/114.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/121.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/128.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/129.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/130.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/26.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/29.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/36.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/avatar-k1.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/44.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/45.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/52.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/6.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/61.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/66.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/7.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/70.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/74.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/75.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/76.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/81.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/84.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/88.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/90.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/99.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/a65832155622ac173337874f02b218fb.jpg" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/ava.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/avatar-jake1.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/beautiful-latin-woman-avatar-character-icon-free-vector.jpg" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/deadpool-pro.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/diego.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/doctor-strange-icon.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/hulk.jpg" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/male.jpg" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/manny.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/murpho.jpg" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span></div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/sid.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/snow.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/spiderman.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/wolverine-pro.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+                <div class="profile-icon" onclick="selectProfile(this)"><img src="../image/profile/young-jedi-21.png" alt="Profile 11"> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> </div>
+
+
+
+
+            </div>
+            <button class="nav-button right" onclick="scrollRightBtn()">
+                <span class="iconify" data-icon="ep:arrow-right-bold"></span>
+            </button>
+        </div>
         <div class="profile-input">
             <label for="profile-name">Profile Name</label>
             <input type="text" id="profile-name" value="ARJUN AADHITH">
         </div>
-
         <button class="save-button">Save & Continue</button>
-    </div>
+    </div> <span class="check-mark"><span class="iconify" data-icon="icon-park-solid:check-one" data-width="40"></span></span> 
+
+
 
     <script src="set-profile.js"></script>
 </body>
