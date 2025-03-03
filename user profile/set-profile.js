@@ -1,3 +1,15 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const params = new URLSearchParams(window.location.search);
+    const profileName = params.get("profile") || "Default Profile";
+
+    const profileHeader = document.getElementById("profileName");
+    if (profileHeader) {
+        profileHeader.textContent = profileName;
+    }
+});
+
+
+
 function scrollLeftBtn() {
     const profileList = document.getElementById("profileList");
     if (profileList) {
