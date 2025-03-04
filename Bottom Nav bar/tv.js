@@ -15,26 +15,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //bottom nav bar 
 
-  document.addEventListener("DOMContentLoaded", function () {
-      // Get the current page's filename (e.g., "movie.html")
-      let currentPage = window.location.pathname.split("/").pop();
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the current page's filename (e.g., "movie.html")
+    let currentPage = window.location.pathname.split("/").pop();
 
-      // Map pages to their respective icon IDs
-      let pageMap = {
-          "index.html": "home",
-          "tv.html": "tv",
-          "movie.html": "movie",
-          "anime.html": "anime",
-          "sport.html": "sport",
-          "categories.html": "categories"
-      };
+    // Map pages to their respective icon IDs
+    let pageMap = {
+        "index.html": "home",
+        "tv.html": "tv",
+        "movie.html": "movie",
+        "anime.html": "anime",
+        "sport.html": "sport",
+        "categories.html": "categories"
+    };
 
-      // Check if currentPage exists in pageMap
-      if (pageMap[currentPage]) {
-          document.getElementById(pageMap[currentPage]).classList.add("active");
-      }
-  });
-
+    // Check if currentPage exists in pageMap
+    if (pageMap[currentPage]) {
+        document.getElementById(pageMap[currentPage]).classList.add("active");
+    }
+});
 
 //profile
 
@@ -52,8 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const banners = [
     {
-        image: './image/oHPoF0Gzu8xwK4CtdXDaWdcuZxZ.jpg',
-        title: './image/Mufasa_The_Lion_King_logo.png',
+        image: '../image/oHPoF0Gzu8xwK4CtdXDaWdcuZxZ.jpg',
+        title: '../image/Mufasa_The_Lion_King_logo.png',
         description: 'Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.',
         year: '2025',
         rating: 'U/A 12+',
@@ -62,8 +61,8 @@ const banners = [
         genres: ['Animal Adventure', 'Animation', 'Adventure','Fantasy']
     },
     {
-        image: './image/Captain-America-Brave-New-World.jpg',
-        title: './image/Marvels_Captain_America_Brave_New_World. png.webp',
+        image: '../image/Captain-America-Brave-New-World.jpg',
+        title: '../image/Marvels_Captain_America_Brave_New_World. png.webp',
         description: 'Sam Wilson, the new Captain America, finds himself in the middle of an international incident and must discover the motive behind a nefarious global plan.',
         year: '2025',
         rating: 'U/A 15+',
@@ -72,8 +71,8 @@ const banners = [
         genres: ['Action Epic', 'Adventure Epic', 'Sci-Fi Epic', 'Superhero']
     },
     {
-        image: './image/the-wild-robot.jpg',
-        title: './image/The_Wild_Robot_logo.png',
+        image: '../image/the-wild-robot.jpg',
+        title: '../image/The_Wild_Robot_logo.png',
         description: 'After a shipwreck, Roz, an intelligent robot, adapts to an island by bonding with animals and caring for an orphaned gosling to survive.',
         year: '2024',
         rating: 'U/A 5+',
@@ -83,8 +82,8 @@ const banners = [
     },
 
     {
-        image: './image/1740067625098-i.avif',
-        title: './image/pak vs india.png',
+        image: '../image/1740067625098-i.avif',
+        title: '../image/pak vs india.png',
         description: 'India put in a clinical performance to topple Bangladesh by six wickets and begin their ICC Champions Trophy 2025 campaign on a high.',
         year: 'ICC Champions Trophy 2025',        
         rating: '15m',
@@ -93,8 +92,8 @@ const banners = [
         genres: ['Sport']
     },
     {
-        image: './image/Ghosted_Video_Poster_01.jpg',
-        title: './image/ghosted-logo-CD3186C735-seeklogo.com.png',
+        image: '../image/Ghosted_Video_Poster_01.jpg',
+        title: '../image/ghosted-logo-CD3186C735-seeklogo.com.png',
         description: 'Cole falls for the mysterious Sadie, only to learn she`s a secret agent. Before a second date, they`re thrust into a global mission to save the world.',
         year: '2023',
         rating: 'U/A 15+',
@@ -104,8 +103,8 @@ const banners = [
     },
     
     {
-        image: './image/sivakarthikeyan-amaran-115444924-16x9_0.avif',
-        title: './image/AAAABQA-_qOQT5dNgmRU9e27AxaD7WezjDpVf99nIB6KZYLQM5r_ckpiVkpJUtmC0ntim6WsAratBt_u7qQh4NGaOHpnV3NBiOr6IFvjlNd0ysxY.png',
+        image: '../image/sivakarthikeyan-amaran-115444924-16x9_0.avif',
+        title: '../image/AAAABQA-_qOQT5dNgmRU9e27AxaD7WezjDpVf99nIB6KZYLQM5r_ckpiVkpJUtmC0ntim6WsAratBt_u7qQh4NGaOHpnV3NBiOr6IFvjlNd0ysxY.png',
         description: 'The life of Major Mukund Varadarajan and is set against the backdrop of the Qazipathri Operation in Shopian, Kashmir, which took place back in 2014.',
         year: '2024',
         rating: 'U/A 10+',
@@ -114,8 +113,8 @@ const banners = [
         genres: ['Action Epic','Tragedy','Biography','Drama']
     },
     {
-        image: './image/Anime_OnePiece_Luffy_nami_Sanji_Usopp_Chopper_Robin_Brooke_Franky_Jinbe_EggheadArc.jpg',
-        title: './image/One-Piece-Logo.png',
+        image: '../image/Anime_OnePiece_Luffy_nami_Sanji_Usopp_Chopper_Robin_Brooke_Franky_Jinbe_EggheadArc.jpg',
+        title: '../image/One-Piece-Logo.png',
         description: 'Monkey D. Luffy sets off on an adventure with his pirate crew in hopes of finding the greatest treasure ever, known as the One Piece.',
         year: '2025',
         rating: 'U/A 18+',
@@ -124,8 +123,8 @@ const banners = [
         genres: ['Anime', 'Action', 'Adventure', 'Fantasy Epic']
     },
     {
-        image: './image/0d3e5a2a4177f9368c33b411cccb8951.png',
-        title: './image/Squid Game 2 Logo Vector.png',
+        image: '../image/0d3e5a2a4177f9368c33b411cccb8951.png',
+        title: '../image/Squid Game 2 Logo Vector.png',
         description: 'Hundreds of desperate players enter a deadly survival game based on children`s games, competing for a massive 45.6 billion-won prize.',
         year: '2021–2025',
         rating: 'U/A 16+',
@@ -134,8 +133,8 @@ const banners = [
         genres: ['Conspiracy Thriller', 'Korean Drama', 'Thriller','Suspense Mystery']
     },
     {
-        image: './image/hear_me_1736331459_1024x682.webp',
-        title: './image/Screenshot_2025-02-24_221023-removebg-preview.png',
+        image: '../image/hear_me_1736331459_1024x682.webp',
+        title: '../image/Screenshot_2025-02-24_221023-removebg-preview.png',
         description: 'A doctor sued for misdiagnosis seeks a firefighter as a character witness, leading to an unexpected romance.',
         year: '2012',
         rating: 'U/A 16+',
@@ -144,8 +143,8 @@ const banners = [
         genres: ['Romance', 'Comedy']
     },
     {
-        image: './image/Kung-Fu-Panda-3.jpg',
-        title: './image/17ae7ccc123c45c14397e1db5ca990a0.jpg',
+        image: '../image/Kung-Fu-Panda-3.jpg',
+        title: '../image/17ae7ccc123c45c14397e1db5ca990a0.jpg',
         description: 'Po becomes the Spiritual Leader and must train a new Dragon Warrior, while a wicked sorceress plots to revive Po’s past foes from the spirit realm.',
         year: '2024',
         rating: 'U/A 5+',

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flixora - Watch Movies, TV Shows, Anime, Sports, Series & Live Specials</title>
+    <link rel="icon" href="./image/flixora_logo-removebg-preview.png" />
+    <link rel="icon" href="./assets/flixora_logo-removebg-preview.png" />
+    <link rel="stylesheet" href="./categories.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+  </head>
+  <body>
+
+<!-- Top Navbar -->
+<nav class="top-navbar">
+  <div class="logo">
+    <img src="./image/logo.png" alt="logo" />
+  </div>
+  <div class="nav-right">
+    <form class="search-container">
+      <input type="text" id="search-box" placeholder="Search" />
+      <button type="submit" id="search-button">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+
+    <button class="subscription">Subscription ➜</button>
+    
+    <!-- Navbar Profile Image -->
+    <img src="./image/profile.jpg" class="profile" id="navbarProfile" onclick="window.location.href='user profile/profile.html';" />
+  </div>
+</nav>
+
+    
+    
+    <!-- Recommended movies -->
+<div class="top-space">
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Browse</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/recommended movies/Amaran.jpg" alt="Movie 1" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/vj siddu.jpg" alt="Movie 9" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/pushpa 2.jpg" alt="Movie 2" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/one-piece.jpg" alt="Movie 3" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/the roundup.jpg" alt="Movie 4" />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/recommended movies/interstellar.avif"
+            alt="Movie 5"
+          />
+         
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/ditto.png" alt="Movie 6" />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/recommended movies/biggbosstamilseason8.webp"
+            alt="Movie 7"
+          />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/recommended movies/house of dragon.avif"
+            alt="Movie 8"
+          />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/recommended movies/Kadhalikka-Neramillai.avif"
+            alt="Movie 9"
+          />
+        </div>
+        <div class="movie-banners">
+          <img src="image/recommended movies/Death-Note.avif" alt="Movie 9" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/recommended movies/carl's date.jpg" alt="Movie 9" />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+</div>
+
+    <!-- studio -->
+
+    <div class="movie-wrapper">
+        <h3 class="Recommended-movie">Studios</h3>
+        <h4 class="Rec-View-all">
+          View All
+          <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+        </h4>
+        <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+        <div class="movie-container" id="movieContainer">
+          <div class="movie-banners">
+            <img src="./image/studios/flixora.jpg" alt="flixora" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/lyca.png" alt="lyca" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/ags.png" alt="ags" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/Wunderbar.jpg" alt="wunderbar" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/2d.png" alt="2d" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Red_Giant_Movies.png" alt="red gaint" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/rkfi.jpg" alt="rkfi" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/sun picture.png" alt="sun picture" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/disney.png" alt="disney" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Marvel.png" alt="Marvel" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Pixar.png" alt="pixar" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/HBO.png" alt="HBO" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Peacock.png" alt="peacock" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/paramount.png" alt="paramount" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/star-wars.png" alt="start war" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/national-geographic.png" alt="NG" />
+          </div>
+        </div>
+        <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+      </div>
+
+    <!--languages -->
+
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Popular Languages</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/tamil.jpg" alt="Tamil" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/English.jpg" alt="English" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/hindi.png" alt="Hindi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/telgu.png" alt="Telgu" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/malayalam.jpg" alt="Malayalam" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/bengali.jpg" alt="Bengali" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/kannada.jpg" alt="Kannada" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/Marathi.jpg" alt="Marathi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/japanse.jpg" alt="japanse" />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/watch in your lang/watch your fav lang.jpg"
+            alt="fav lang"
+          />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+
+ <!-- genres -->
+
+ <div class="movie-wrapper">
+    <h3 class="Recommended-movie">Genres</h3>
+    <h4 class="Rec-View-all">
+      View All
+      <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+    </h4>
+    <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+    <div class="movie-container" id="movieContainer">
+      <div class="movie-banners">
+        <img src="./image/studios/flixora.jpg" alt="flixora" />
+      </div>
+
+      <div class="movie-banners">
+        <img src="./image/studios/lyca.png" alt="lyca" />
+      </div>
+
+      <div class="movie-banners">
+        <img src="./image/studios/ags.png" alt="ags" />
+      </div>
+
+      <div class="movie-banners">
+        <img src="./image/studios/Wunderbar.jpg" alt="wunderbar" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/2d.png" alt="2d" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/Red_Giant_Movies.png" alt="red gaint" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/rkfi.jpg" alt="rkfi" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/sun picture.png" alt="sun picture" />
+      </div>
+
+      <div class="movie-banners">
+        <img src="./image/studios/disney.png" alt="disney" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/Marvel.png" alt="Marvel" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/Pixar.png" alt="pixar" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/HBO.png" alt="HBO" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/Peacock.png" alt="peacock" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/paramount.png" alt="paramount" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/star-wars.png" alt="start war" />
+      </div>
+      <div class="movie-banners">
+        <img src="./image/studios/national-geographic.png" alt="NG" />
+      </div>
+    </div>
+    <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+  </div>
+
+      <!-- sports -->
+
+      <div class="movie-wrapper">
+        <h3 class="Recommended-movie">Sports</h3>
+        <h4 class="Rec-View-all">
+          View All
+          <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+        </h4>
+        <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+        <div class="movie-container" id="movieContainer">
+          <div class="movie-banners">
+            <img src="./image/studios/flixora.jpg" alt="flixora" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/lyca.png" alt="lyca" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/ags.png" alt="ags" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/Wunderbar.jpg" alt="wunderbar" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/2d.png" alt="2d" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Red_Giant_Movies.png" alt="red gaint" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/rkfi.jpg" alt="rkfi" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/sun picture.png" alt="sun picture" />
+          </div>
+  
+          <div class="movie-banners">
+            <img src="./image/studios/disney.png" alt="disney" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Marvel.png" alt="Marvel" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Pixar.png" alt="pixar" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/HBO.png" alt="HBO" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/Peacock.png" alt="peacock" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/paramount.png" alt="paramount" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/star-wars.png" alt="start war" />
+          </div>
+          <div class="movie-banners">
+            <img src="./image/studios/national-geographic.png" alt="NG" />
+          </div>
+        </div>
+        <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bottom nav bar -->
+
+<div class="bottom-hover-area"></div>
+<nav class="bottom-navbar">
+    <a href="../index.html" class="nav-icon" id="home" data-tooltip="Home">
+        <span class="iconify" data-icon="mynaui:home-solid" data-width="25" data-height="30"></span>
+    </a>
+    <a href="./tv.html" class="nav-icon" id="tv" data-tooltip="TV">
+        <span class="iconify" data-icon="mdi:television" data-width="25" data-height="30"></span>
+    </a>
+    <a href="./movie.html" class="nav-icon" id="movie" data-tooltip="Movies">
+        <span class="iconify" data-icon="icon-park-solid:movie" data-width="25" data-height="30"></span>
+    </a>
+    <a href="./anime.html" class="nav-icon" id="anime" data-tooltip="Anime">
+        <span class="iconify" data-icon="file-icons:animestudio" data-width="25" data-height="30"></span>
+    </a>
+    <a href="./sport.html" class="nav-icon" id="sport" data-tooltip="Sports">
+        <span class="iconify" data-icon="icon-park-solid:sport" data-width="25" data-height="30"></span>
+    </a>
+    <a href="./categories.html" class="nav-icon" id="categories" data-tooltip="Categories">
+        <span class="iconify" data-icon="tabler:category-filled" data-width="25" data-height="30"></span>
+    </a>
+</nav>
+
+
+    <script src="./categories.js"></script>
+  </body>
+</html>

@@ -15,26 +15,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //bottom nav bar 
 
-  document.addEventListener("DOMContentLoaded", function () {
-      // Get the current page's filename (e.g., "movie.html")
-      let currentPage = window.location.pathname.split("/").pop();
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the current page's filename (e.g., "movie.html")
+    let currentPage = window.location.pathname.split("/").pop();
 
-      // Map pages to their respective icon IDs
-      let pageMap = {
-          "index.html": "home",
-          "tv.html": "tv",
-          "movie.html": "movie",
-          "anime.html": "anime",
-          "sport.html": "sport",
-          "categories.html": "categories"
-      };
+    // Map pages to their respective icon IDs
+    let pageMap = {
+        "index.html": "home",
+        "tv.html": "tv",
+        "movie.html": "movie",
+        "anime.html": "anime",
+        "sport.html": "sport",
+        "categories.html": "categories"
+    };
 
-      // Check if currentPage exists in pageMap
-      if (pageMap[currentPage]) {
-          document.getElementById(pageMap[currentPage]).classList.add("active");
-      }
-  });
-
+    // Check if currentPage exists in pageMap
+    if (pageMap[currentPage]) {
+        document.getElementById(pageMap[currentPage]).classList.add("active");
+    }
+});
 
 //profile
 

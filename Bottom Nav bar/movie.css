@@ -1,0 +1,988 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "bebas", sans-serif;
+    background: #001724;
+    user-select: none;
+    overflow-x: hidden;
+  
+  }
+  
+  /* Top Navbar */
+  /* Top Navbar - Reduced Height */
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px; /* Reduce padding to decrease height */
+    margin: 10px 5px;
+    background: black;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    height: 70px; /* Set a fixed height */
+    overflow: hidden; /* Ensures no extra spacing */
+      
+  }
+  
+  .top-navbar {
+      position: fixed; /* Fixes the navbar at the top */
+      top: 0;
+      left: 32px;
+      width: 90%;
+      z-index: 1000; /* Ensures it stays above other content */
+      background: rgba(0, 0, 0, 0.8); /* Adjust opacity (0.8 means 80% visible) */
+      backdrop-filter: blur(5px);
+    }
+    
+  
+  /* Ensure Logo Stays Big */
+  .logo img {
+    height: 120px; /* Keep the logo large */
+    /* Adjust position to prevent cutting */
+  }
+  
+  .play {
+    color: #007bff;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .iconify {
+    width: 30px;
+    height: 35px;
+  }
+  
+  
+  
+  /* SEARCH FORM (Default State) */
+  .search-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border-radius: 20px;
+      border: 2px solid transparent;
+      transition: width 0.4s ease-in-out, border 0.3s;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+  }
+  
+  /* Expand on Focus */
+  .search-container:focus-within {
+      width: 250px;
+      border: 2px solid rgb(144, 144, 144);
+  }
+  
+  /* SEARCH INPUT */
+  #search-box {
+      flex-grow: 1;
+      width: 100%;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      color: #ffffff;
+      background: transparent;
+      padding-left: 0;
+      transition: padding 0.4s ease-in-out;
+  }
+  
+  /* Expand input padding when active */
+  .search-container:focus-within #search-box {
+      padding-left: 15px;
+  }
+  
+  /* SEARCH BUTTON */
+  #search-button {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 12px;
+      color: rgb(144, 144, 144);
+      font-size: 18px;
+      transition: color 0.3s;
+  }
+  
+  #search-button:hover{
+    color: #ffffff;
+  }
+  
+  /* SEARCH ICON HOVER EFFECT */
+  .search-container:focus-within #search-button {
+      color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  .subscription {
+    border: 2px solid goldenrod;
+    background-color: transparent;
+    color: goldenrod;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.8s;
+  }
+  
+  .subscription:hover {
+    background-color: goldenrod;
+    color: rgb(0, 0, 0);
+  }
+  
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  .profile:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 1px 10px rgb(0, 153, 255);
+  }
+  
+  
+  
+  
+  
+  
+
+
+
+  .bottom-navbar {
+    position: fixed;
+    bottom: -80px; /* Initially hidden */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 40px;
+    background: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    gap: 21px;
+    transition: bottom 0.4s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .bottom-navbar:hover,
+  .bottom-hover-area:hover + .bottom-navbar {
+    bottom: 20px; /* Moves up when hovered */
+  }
+  
+  .bottom-hover-area {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Hover area */
+    background: transparent;
+    z-index: 999;
+  }
+  
+  /* Default Icon Color */
+  .nav-icon {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  /* Different hover colors */
+  .nav-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .nav-icon:nth-child(1):hover {
+    color: #878787; /* Home */
+  }
+  
+  .nav-icon:nth-child(2):hover {
+    color: #878787; /* TV */
+  }
+  
+  .nav-icon:nth-child(3):hover {
+    color: #878787; /* Movies */
+  }
+  
+  .nav-icon:nth-child(4):hover {
+    color: #878787; /* Anime */
+  }
+  
+  .nav-icon:nth-child(5):hover {
+    color: #878787; /* Sports */
+  }
+  
+  .nav-icon:nth-child(6):hover {
+    color: #878787; /* Categories */
+  }
+  
+  /* Active Page Icon Color */
+  .nav-icon.active {
+    color: #00a6ff !important; /* Bright cyan for active icon */
+    transform: scale(1.3); /* Slightly bigger */
+    font-weight: bold;
+  }
+  
+  
+  /* Tooltip Styling */
+  .nav-icon::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(3, 163, 255);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.55s, visibility 20ms;
+  }
+  
+  .nav-icon:hover::before {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* hero section */
+  
+  .banner{
+      position: relative;
+      min-height: 100vh;
+      padding: 0 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      border-radius: 0 0 30px 30px;
+      box-shadow: 5px 8px 25px rgb(0, 128, 255);
+      overflow: hidden;
+      transition: 0.5s;
+  }
+  
+  .banner::before{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .content{
+      position: relative;
+      top: 70px;
+      max-width: 600px;
+      display: none;
+      visibility: hidden;
+      transform: scale(0);
+      transition: 0.5s;
+  }
+  
+  .content.active{
+      display: block;
+      visibility: visible;
+      transform: scale(1);
+      transition: 0.5s;
+  }
+  
+  .movie-title{
+      position: relative;
+      top: 20px;
+      max-width: 300px;
+  }
+  
+  .banner.content h4{
+      color: rgb(109, 108, 108);
+      font-weight: 400;
+      font-size: 30px;
+      
+  }
+  
+  .banner .content h4 span{
+      color: rgb(208, 208, 208);
+      padding: 0 10px;
+      border-right: 1px solid rgba(222, 222, 222, 0.5);
+      transition: color 0.5s;
+  }
+  
+  .banner .content h4 span:first-child{
+      padding-left: 0;
+  }
+  
+  .banner .content h4 span:last-child{
+      border-right: none;
+  }
+  
+  .banner .content h4 span i{
+  background: var(--primary);
+  background-color: #c9c9c9;
+  color: rgb(255, 255, 255);
+  padding: 0 8px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background 0.5s;
+  transition: color 0.5s;
+  }
+  
+  .banner .content p{
+      font-size: 1rem;
+      font-weight: 300;
+      max-width: 450px;
+      line-height: 1.5em;
+      color: rgb(213, 213, 213);
+      margin: 10px 0 20px;
+      transition: color 0.5s;
+  }
+  
+  .banner .content h4 span:hover
+  {
+      cursor: pointer;
+  color: #ffffff;
+  }
+  
+  .banner .content h4 span i:hover{
+      background-color: #ffffff;
+      color: gray;
+      cursor: pointer;
+  }
+  
+  .banner .content p:hover{
+  color: #ffffff;
+  cursor: pointer;
+  }
+  
+  
+  /* Thumbnails Container */
+  .thumbnails-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 60px; /* Adjusted position */
+    top: 75%;
+    left: 80%;
+    transform: translateX(-50%);
+    width: 60%; /* Reduced width */
+    overflow: hidden;
+  }
+  
+  /* Thumbnails Wrapper */
+  .thumbnails {
+    display: flex;
+    gap: 10px; /* Reduced gap */
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    max-width: 50%;
+    padding: 10px 10px;
+  }
+  
+  /* Hide Scrollbar */
+  .thumbnails::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Thumbnails */
+  .thumbnail {
+    flex: 0 0 90px; /* Smaller size */
+    width: 65px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0.7;
+  }
+  
+  .thumbnail:hover,
+  .thumbnail.active {
+    transform: scale(1.08);
+    border: 2px solid #ebebeb;
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(64, 64, 64, 0.8);
+  }
+  
+  /* Arrow Buttons */
+  .arrow-button {
+    position: absolute;
+    top: 48.5%;
+    height: 56px; /* Smaller button */
+    width: 40px;
+    transform: translateY(-50%);
+    background: rgb(0, 0, 0,0.4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12%;
+    font-size: 18px;
+    transition: 0.3s ease;
+    z-index: 10; /* Ensures arrows are in front */
+  }
+  
+  .arrow-button:hover {
+    background: rgba(48, 48, 48, 0.9);
+    color: rgb(188, 188, 188);
+  }
+  
+  #prevBtn {
+    left: 23.7%;
+  }
+  
+  #nextBtn {
+    right: 23.7%;
+  }
+  
+  
+  
+  
+  
+  
+  /* Button Container */
+  .button-container {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+  }
+  
+  /* Watch Button */
+  .watch-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      /* background: linear-gradient(120deg, #ff03ff, #ee07ff,rgb(255, 0, 187)); */
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+  }
+  
+  .watch-btn:hover {
+      color: rgb(255, 5, 126);
+      transform: scale(1.1);
+  }
+  
+  /* Wishlist Button */
+  #wishlist-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      padding: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+  }
+  
+  #wishlist-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+      color:#ff0062;
+      transform: scale(1.1);
+  }
+  
+  /* Icon Size */
+  .watch-btn .iconify,
+  #wishlist-btn .iconify {
+      font-size: 16px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* movies list */
+  
+  .wrapper {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 97.5%;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: -90px;
+    margin-bottom: 55px;
+  }
+  
+  .new-movie {
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: rotate(0deg);
+    position: relative;
+    top: 95px;
+    right: 42%;
+    white-space: nowrap;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+  }
+  /* Position "View All >" at the right edge */
+  .View-all {
+    position: absolute;
+    right: 10px; /* Keeps it at the right edge */
+    top: 132px;
+    font-size: 20px;
+    font-weight: 550;
+    color: #7d7d7d;
+    transition: 0.2s;
+    opacity: 0; /* Initially hidden */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adds spacing between text and arrow */
+    cursor: pointer;
+  }
+  
+  #arr {
+    width: 15px;
+    height: 15px;
+    color: inherit; /* Inherits color from parent */
+  }
+  
+  /* Show "View All >" when hovering over movie cards */
+  .wrapper:hover .View-all {
+    opacity: 1;
+  }
+  
+  /* Change color on hover for both text and arrow */
+  .View-all:hover {
+    color: #60adff; 
+  }
+  
+  
+  .scrolling-btn {
+    position: absolute;
+    top: 62%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    padding: 60px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10%;
+    z-index: 5;
+    transition: opacity 0.5s ease-in-out;
+    display: none; 
+  }
+  
+  .scrolling-btn:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .scrolling-left {
+    left: 10px;
+  }
+  
+  .scrolling-right {
+    right:10px;
+  } 
+  
+  .movies-container:hover .scrolling-btn{
+    display: block;
+    opacity: 1;
+  }
+  
+  
+  
+  /* Movie Card Styling */
+  .movie-card {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Expand movie card on hover */
+  .movie-card:hover {
+    width: 600px;
+    height: 400px;
+  }
+  
+  
+  .movies-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 60px;
+    max-width: 1800px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+  
+  .movies-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* .movie-card {
+    position: relative;
+    width: 220px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .movie-card:hover {
+    width: 600px;
+    height: 400px;
+  } */
+  
+  .movie-poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover .movie-poster {
+    opacity: 0;
+  }
+  
+  .movie-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    padding: 20px;
+  }
+  
+  .movie-card:hover .movie-banner {
+    opacity: 1;
+  }
+  
+  .movie-logo {
+    width: 160px;
+    position: relative;
+    top: 25px;
+  }
+  
+  /* Button Container */
+  .buttons-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  /* Button Styles */
+  .watch-now{
+    padding: 12px 40px;
+    background-color: rgb(44, 163, 255);
+    color: white;
+    margin-right: 3px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .watchlist{
+  padding: 12px 25px;
+  background-color:  rgb(255, 255, 255);
+  color:  rgb(0, 32, 56);
+  margin-left: 3px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .watch-now:hover {
+    transform: scale(1.08); /* Smooth scale animation */
+    color: rgb(0, 123, 255);
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Glow effect */
+  }
+  
+  
+  .watchlist:hover {
+    transform: scale(1.08);
+    background-color:  rgba(145, 231, 255, 0.375);
+    color:   rgb(44, 163, 255);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Movie Info & Description - Hover Animation */
+  .movie-info{
+    color: white;
+    font-weight:500;
+    margin-left: 20px;
+    margin-bottom: -10px;
+    transition: transform 0.3s ease-in, color 0.3s ease-in-out;
+  }
+  
+  .movie-description {
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+    max-width: 80%; /* Controls text wrapping */
+    white-space: normal; /* Allows text to wrap naturally */
+    word-wrap: break-word; /* Ensures long words break correctly */
+    line-height: 1.5; /* Improves readability */
+    transition: transform 0.3s ease-in, color 0.3s ease-in-out;
+  }
+  
+  .movie-info:hover, .movie-description:hover {
+    transform: translateY(-1px); /* Lift text slightly */
+    color: #ffffff; /* Gold color for hover effect */
+  }
+  
+  /* Movie Banner - Keep Background Shadow Unchanged */
+  .movie-banner::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* No change */
+    pointer-events: none; /* Ensure it doesn't block interaction */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* recommed movies */
+  
+  .movie-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  
+  .Recommended-movie{
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: rotate(0deg);
+    margin-right: 98%;
+    position: relative;
+    bottom: 22px;
+    left: 23px;
+    white-space: nowrap;
+    color: #bdbdbd;
+    letter-spacing: 1px;
+  }
+  
+  .Rec-View-all{
+    position: absolute;
+    right: 8px; /* Keeps it at the right edge */
+    top: -2px;
+    font-size: 20px;
+    font-weight: 550;
+    color: #7d7d7d;
+    transition: 0.2s;
+    opacity: 0; /* Initially hidden */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adds spacing between text and arrow */
+    cursor: pointer;
+  }
+  
+  #arr {
+    width: 15px;
+    height: 15px;
+    color: inherit; /* Inherits color from parent */
+  }
+  
+  /* Show "View All >" when hovering over movie cards */
+  .movie-wrapper:hover .Rec-View-all {
+    opacity: 1;
+  }
+  
+  /* Change color on hover for both text and arrow */
+  .Rec-View-all:hover {
+    color: #60adff; 
+  }
+  
+  .movie-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    cursor: grab;
+    position: relative;
+    bottom: 55px;
+    scroll-behavior: smooth;
+  }
+  
+  .movie-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  
+  .movie-container:active {
+    cursor: grabbing;
+  }
+  
+  
+  
+  
+  
+  .movie-banners {
+    width: 350px;
+    height: 200px;
+    background-color: black;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+  }
+  
+  
+  .movie-banners img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .movie-banners .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .movie-banners:hover {
+    transform: scale(1.2);
+    z-index: 2;
+  }
+  
+  .movie-banners:hover .info {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  /* Navigation Buttons */
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 60px 20px;
+    cursor: pointer;
+    border-radius: 10%;
+    display: none; /* Initially hidden */
+    transition: opacity 0.5s ease-in;
+    z-index: 5; /* Ensures buttons are always in the front */
+  }
+  
+  .scroll-left {
+    left: 10px;
+  }
+  
+  .scroll-right {
+    right: 10px;
+  }
+  
+  /* Show buttons only when hovering over a movie banner */
+  .movie-wrapper:hover .scroll-btn {
+    display: block;
+    opacity: 1;
+  }
+  
+  
+  
+  
