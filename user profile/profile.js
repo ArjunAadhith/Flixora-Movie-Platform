@@ -64,3 +64,15 @@ function redirectToHelpSettings() {
 function redirectToEditProfile() {
     window.location.href = "edit.html";
 }
+
+function redirectToProfile(isNew = false, profileName = "") {
+    let url = "set-profile.html";
+
+    if (isNew) {
+        url += "?new=true"; // If it's a new profile, set the new flag
+    } else if (profileName) {
+        url += `?profile=${encodeURIComponent(profileName)}`; // Pass the selected profile name
+    }
+
+    window.location.href = url;
+}
