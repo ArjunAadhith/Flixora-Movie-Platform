@@ -1,3 +1,44 @@
+//search botton 
+document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.querySelector(".search-container");
+    const searchBox = document.querySelector("#search-box");
+
+    searchForm.addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent page refresh
+        const query = searchBox.value.trim();
+        
+        if (query !== "") {
+            console.log("Searching for:", query);
+            // Perform search logic (e.g., redirect, filter, or fetch data)
+        }
+    });
+});
+
+//bottom nav bar 
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the current page's filename (e.g., "movie.html")
+    let currentPage = window.location.pathname.split("/").pop();
+
+    // Map pages to their respective icon IDs
+    let pageMap = {
+        "index.html": "home",
+        "tv.html": "tv",
+        "movie.html": "movie",
+        "anime.html": "anime",
+        "sport.html": "sport",
+        "categories.html": "categories"
+    };
+
+    // Check if currentPage exists in pageMap
+    if (pageMap[currentPage]) {
+        document.getElementById(pageMap[currentPage]).classList.add("active");
+    }
+});
+
+
+//scroll-btn
+
 document.addEventListener("DOMContentLoaded", function () {
     // Function to enable hover-based visibility for scrolling buttons
     function setupScrolling(wrapperSelector) {
