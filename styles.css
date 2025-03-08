@@ -28,7 +28,7 @@ body {
 .top-navbar {
     position: fixed; /* Fixes the navbar at the top */
     top: 0;
-    left: 32px;
+    left: 36px;
     width: 90%;
     z-index: 1000; /* Ensures it stays above other content */
     background: rgba(0, 0, 0, 0.8); /* Adjust opacity (0.8 means 80% visible) */
