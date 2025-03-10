@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streaming Service Subscription</title>
+  <link rel="stylesheet" href="./sub.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.1.0/iconify.min.js"></script>
+ 
+</head>
+<body>
+  
+  <div class="container">
+    <div class="close-btn">
+      <span class="iconify" data-icon="mdi:close"></span>
+    </div>
+    <div class="logo">
+      <span><img src="../image/logo.png" alt="logo" /></span>
+    </div>
+    <div class="language-selector">
+      English <span class="iconify" data-icon="mdi:chevron-down"></span>
+    </div>
+    
+    <div class="left-section">
+      <div class="title">
+        Subscribe and enjoy unlimited movies, shows &amp; live sports
+      </div>
+      <div class="poster-container" id="posterContainer">
+
+      </div>
+    </div>
+    
+    <div class="right-section">
+      <div class="plan-features">
+        <div class="feature-row">
+          <div class="feature-label">
+            All content
+            <div class="feature-subtext">
+              Movies, Live sports, TV, Specials
+            </div>
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <span class="iconify check-icon" data-icon="mdi:check-circle"></span>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <span class="iconify check-icon" data-icon="mdi:check-circle"></span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-label">
+            Watch on TV or Laptop
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <span class="iconify check-icon" data-icon="mdi:check-circle"></span>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <span class="iconify check-icon" data-icon="mdi:check-circle"></span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-label">
+            Ads free movies and shows (except sports)
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <span class="iconify x-icon" data-icon="mdi:close-circle"></span>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <span class="iconify check-icon" data-icon="mdi:check-circle"></span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-label">
+            Number of devices that can be logged in
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <span>4</span>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <span>8</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-label">
+            Max video quality
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <div>Full HD</div>
+              <div>1080p</div>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <div>4K 2160p</div>
+              <div>+ Dolby Vision</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="feature-row">
+          <div class="feature-label">
+            Max audio quality
+            <div class="feature-subtext">
+              Atmos available on select titles only
+            </div>
+          </div>
+          <div class="plan-options">
+            <div class="plan-column super active" onclick="selectPlan('super')">
+              <div>Dolby Atmos</div>
+            </div>
+            <div class="plan-column premium" onclick="selectPlan('premium')">
+              <div>Dolby Atmos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="billing-cycle">
+        <div class="cycle-option" data-period="quarterly" onclick="selectBillingCycle('quarterly')">Quarterly</div>
+        <div class="cycle-option active" data-period="yearly" onclick="selectBillingCycle('yearly')">Yearly</div>
+        <div class="cycle-option" data-period="monthly" onclick="selectBillingCycle('monthly')">Monthly</div>
+      </div>
+      
+      <div class="price-cards">
+        <div class="price-card super active" onclick="selectPriceCard('super')">
+          <div class="check-circle">
+            <span class="iconify" data-icon="mdi:check"></span>
+          </div>
+          <div class="plan-name">Super</div>
+          <div class="plan-price">
+            <span class="currency">₹</span><span id="superPrice">69</span>
+          </div>
+          <div class="plan-period">
+            <span id="superPeriod">/Year</span>
+          </div>
+        </div>
+        
+        <div class="price-card premium" onclick="selectPriceCard('premium')">
+          <div class="check-circle">
+            <span class="iconify" data-icon="mdi:check"></span>
+          </div>
+          <div class="plan-name">Premium</div>
+          <div class="plan-price">
+            <span class="currency">₹</span><span id="premiumPrice">99</span>
+          </div>
+          <div class="plan-period">
+            <span id="premiumPeriod">/Year</span>
+          </div>
+        </div>
+      </div>
+      
+      <button class="continue-btn" id="continueBtn">
+        Continue with Super
+        <span class="iconify btn-icon" data-icon="mdi:arrow-right"></span>
+      </button>
+    </div>
+  </div>
+
+  <script src="./sub.js"></script>
+
+</body>
+</html>
