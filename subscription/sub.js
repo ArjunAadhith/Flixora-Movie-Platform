@@ -1,3 +1,16 @@
+document.addEventListener("DOMContentLoaded", function() {
+  // Handle Back Button Click
+  const backButton = document.querySelector(".close-btn");
+  if (backButton) {
+    backButton.addEventListener("click", function(event) {
+      event.preventDefault();
+      window.location.href = "../index.html";
+    });
+  } else {
+    console.log("Back button element not found");
+  }
+});
+
 // Define plan pricing for each billing cycle
 const planPricing = {
   quarterly: {
