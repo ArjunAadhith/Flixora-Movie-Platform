@@ -211,3 +211,7 @@ function generatePosters() {
       this.style.animationPlayState = 'running';
     });
   });
+
+  document.getElementById("cycle-option").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent unexpected page behavior
+});
