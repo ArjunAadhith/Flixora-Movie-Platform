@@ -528,7 +528,7 @@ const galleryData = [
     image:
       " https://preview.redd.it/titanic-1997-v0-es9pbmd98s6b1.jpg?width=1080&crop=smart&auto=webp&s=556b1932bfdafecc17f545a6e11b7bc9c332b073",
     bannerImage:
-      " https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/01/titanic_cropped.jpg",
+      " https://i.cbc.ca/1.6690550.1671412533!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_940/titanic.jpg",
     title: "Titanic",
     year: "1997",
     rating: "PG-13",
@@ -543,7 +543,7 @@ const galleryData = [
     image:
       " https://lumiere-a.akamaihd.net/v1/images/p_frozen2_19644_4c4b423d.jpeg?region=0%2C0%2C540%2C810",
     bannerImage:
-      "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/09/Frozen-2-international-poster-with-characters.jpg",
+      "https://images.moviesanywhere.com/62b4c7ed71a8431a4bbee9a38aebb2df/b3f61187-1c5a-4404-8cc2-37acd4a6648f.jpg?w=2560&r=16x9",
     title: "Frozen 2",
     year: "2019 ",
     rating: "U",
