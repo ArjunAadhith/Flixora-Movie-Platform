@@ -556,14 +556,1824 @@ const galleryData = [
 ];
 
 
-// Function to create gallery items
-function createGallery() {
-  const galleryRow = document.getElementById("galleryRow");
+// All Time Favourites
+const favoritesData = [
+  {
+    id: 0,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/c2fe66281e0053e0c70730e4ec656a75a26149f3d7934bb57d969f19fbb717d1.jpg",
+    bannerImage:
+      "https://www.highonfilms.com/wp-content/uploads/2023/09/Jailer-2023-Movie-Ending-Explained.jpg",
+    title: "Jailer",
+    year: "2023",
+    rating: "U/A",
+    season: "Action/Comedy",
+    language: "4 languages",
+    description:
+      "A retired jailer goes on a manhunt to find his son's killers. But the road leads him to a familiar, albeit a bit darker place. Can he emerge from this complex situation successfully?",
+  },
+  {
+    id: 1,
+    image:
+      "https://musicart.xboxlive.com/7/abb02f00-0000-0000-0000-000000000002/504/image.jpg",
+    bannerImage:
+      "https://cdn.theatlantic.com/thumbor/4xedENNyVDQrfV_-6NrWA2wnfJo=/0x0:1600x900/1600x900/media/img/mt/2018/07/TDK/original.jpg",
+    title: "The Dark Knight",
+    year: "2008",
+    rating: "PG-13",
+    season: "Action/Thriller",
+    language: "5 languages",
+    description:
+      "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  },
+  {
+    id: 1,
+    image:
+      "https://d229kpbsb5jevy.cloudfront.net/firstshows/content/portrait/movie/images/pzpldf.jpeg",
+    bannerImage:
+      "https://www.hollywoodreporterindia.com/_next/image?url=https%3A%2F%2Fcdn.hollywoodreporterindia.com%2Farticle%2F-2024-12-13T11%253A00%253A29.254Z-Miss%2520You_L1.jpg&w=3840&q=75",
+    title: "Miss You",
+    year: "2024",
+    rating: "U/A",
+    season: "Romance",
+    language: "2 languages",
+    description:
+      "A young man finds himself unexpectedly falling for a woman he initially despised. Their emotional journey explores the depth behind her refusal and the rollercoaster of feelings that unfolds.",
+  },
+  {
+    id: 2,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/4707d08c54f84daa325b75fce6b9fdce120f04fac4ee48630ca833587a82465b.jpg",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2017/12/the_two_towers_-_h_-_2002.jpg",
+    title: "The Lord of the Rings: The Two Towers",
+    year: "2002 ",
+    rating: "U",
+    season: "Family/Adventure",
+    language: "6 languages",
+    description:
+      "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+  },
+  {
+    id: 3,
+    image:
+      "https://images.justwatch.com/poster/177638617/s718/the-shawshank-redemption.jpg",
+    bannerImage:
+      "https://i.redd.it/behind-the-scenes-of-the-shawshank-redemption-released-30-v0-fg7ql0tdtsqd1.jpg?width=800&format=pjpg&auto=webp&s=272093b155791c402a5be5e34c0a562b07f1d3c7",
+    title: "Shawshank Redemption",
+    year: "1994",
+    rating: "R",
+    season: "Drama",
+    language: "4 languages",
+    description:
+      "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+  },
+  {
+    id: 4,
+    image:
+      "https://www.pakistantoday.com.pk/wp-content/uploads/2024/12/sonic-3-696x1068.jpg",
+    bannerImage:
+      "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/08/sonic-3-knuckles-tails.jpg",
+    title: "Sonic the Hedgehog 3",
+    year: "2024",
+    rating: "U/A",
+    season: "Action/Comedy",
+    language: "3 languages",
+    description:
+      "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched, Team Sonic must seek out an unlikely alliance.",
+  },
+  {
+    id: 5,
+    image:
+      "https://image.tmdb.org/t/p/original/nGUUQAsnW5bmSjBNao8vXlK0QMK.jpg",
+    bannerImage:
+      "https://www.filmlinc.org/wp-content/uploads/2024/08/Anora-2-1600x900-c-default.jpg",
+    title: "Anoray",
+    year: "2024",
+    rating: "PG",
+    season: "Comedy/Romance",
+    language: "3 languages",
+    description:
+      "A young escort from Brooklyn meets and impulsively marries the son of a Russian oligarch. Once the news reaches Russia, her fairy tale is threatened as his parents set out for New York to get the marriage annulled.",
+  },
+  {
+    id: 6,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/swargam-et00415538-1728484866.jpg",
+    bannerImage:
+      "https://d2sal5lpzsf102.cloudfront.net/78575/public/public/system/studio_banner/78575/original/Swargam-Banner_1740672448.jpg",
+    title: "Swargam",
+    year: "2024",
+    rating: "PG",
+    season: "Thriller",
+    language: "2 languages",
+    description:
+      "In the bustling city, two families live parallel lives, separated by wealth and social status. As the two families navigate their lives, they face challenges and triumphs.",
+  },
+  {
+    id: 7,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/738856e184115fe60a90e0b777465e393f7da36914acf90255a577430f5fcf71.jpg",
+    bannerImage:
+      "https://images.cinemaplus.com/ticketing/heroart/4bb24353771706df4f7ffe800aa230f9.jpg",
+    title: "My Penguin Friend",
+    year: "2024",
+    rating: "A",
+    season: "Adventure/Family",
+    language: "3 languages",
+    description:
+      "Inspired by a true story; an enchanting adventure about a lost penguin rescued from an oil spill, who transforms the life of a heartbroken fisherman.",
+  },
+  {
+    id: 8,
+    image:
+      "https://mountvicflicks.com.au/site/assets/files/14051/filmposter_packshot.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/42dbfcf2215f0e3ecddbb5e46e10acdc50d79552d337ac07c93c6e9c66123a2d._SX1080_FMjpg_.jpg",
+    title: "Flow",
+    year: "2024",
+    rating: "PG",
+    season: "Adventure/Fantasy",
+    language: "2 languages",
+    description:
+      "https://m.media-amazon.com/images/S/pv-target-images/42dbfcf2215f0e3ecddbb5e46e10acdc50d79552d337ac07c93c6e9c66123a2d._SX1080_FMjpg_.jpg",
+  },
+  {
+    id: 9,
+    image:
+      "https://images.moviesanywhere.com/5ebc4925e2c157b83fcdb8041f4413e9/0cf0984d-322c-4cfa-a394-fe4dc8ecc371.jpg",
+    bannerImage:
+      "https://attractionsmagazine.com/wp-content/uploads/2024/12/Mufasa-poster-03-courtesy-of-Disney-1.jpg",
+    title: "Mufasa: The Lion King",
+    year: "2024",
+    rating: "U",
+    season: "Adventure/Musical",
+    language: "4 languages",
+    description:
+      "A cub lost and alone meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey.",
+  }
+];
 
-  galleryData.forEach((item) => {
+
+// Additional data arrays for each genre
+const trendingData = [
+  {
+    id: 1,
+    image:
+      "https://www.kiwikinos.ch/db_data/mov/4190/artw_01.jpg",
+    bannerImage:
+      "https://wallpapers.com/images/featured/spider-man-no-way-home-pictures-l3ztimmzaeeqfgir.jpg",
+    title: "Spider-Man: No Way Home",
+    year: "2021",
+    rating: "U/A",
+    season: "Action/Sci-fi",
+    language: "5 languages",
+    description:
+      "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear.",
+  },
+  {
+    id: 2,
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/p_20cs_avatarwayofwater_mayupdate_1710_260aa445.jpeg",
+    bannerImage:
+      "https://images.augustman.com/wp-content/uploads/sites/6/2023/03/10114512/avatar-2.jpeg",
+    title: "Avatar: The Way of Water",
+    year: "2022",
+    rating: "U/A",
+    season: "Action/Sci-fi",
+    language: "6 languages",
+    description:
+      "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+  },
+  {
+    id:3,
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/d23f41184733377.65571621a3846.jpg",
+    bannerImage:
+      "https://www.telugubulletin.com/wp-content/uploads/2023/02/LEO.jpg",
+    title: "Leo",
+    year: "2023",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "4 languages",
+    description:
+      "Parthiban is a mild-mannered cafe owner who fends off a gang of murderous thugs and gains attention from a drug cartel claiming he was once a part of them.",
+  },
+  {
+    id:4,
+    image:
+      "https://edgroom-blogs.s3.ap-south-1.amazonaws.com/202310081804529081219_image.jpg",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5333/1375333-i-e44f367bc7fa",
+    title: "M.S. Dhoni: The Untold Story",
+    year: "2016 ",
+    rating: "U",
+    season: "Sport/Drama",
+    language: "3 languages",
+    description:
+      "The untold story of Mahendra Singh Dhoni's journey from ticket collector to trophy collector - the world-cup-winning captain of the Indian Cricket Team.",
+  },
+  {
+    id:5,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/game-changer-et00311772-1731311322.jpg",
+    bannerImage:
+      "https://img.theweek.in/content/dam/week/week/news/entertainment/images/2024/12/30/Ram-Charan-Game-Changer.jpg",
+    title: "Game Changer",
+    year: "2025",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "5 languages",
+    description:
+      "An honest IAS officer's fight against a corrupt political system through fair and transparent elections.",
+  },
+  {
+    id: 6,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BOTcyYjczMjUtNjdjZS00ZjAwLTkzMzEtYjhkNDhiZmE1M2RlXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://static.toiimg.com/thumb/msid-106183470,width-1280,height-720,resizemode-4/106183470.jpg",
+    title: "Little Hearts",
+    year: "2024",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "Malayalam",
+    description:
+      "The story follows father Baby and son Sibi navigating three intertwined romantic storylines set against Kattappana's scenic backdrop, blending humor with relatable love tales for a multigenerational audience.",
+  },
+  {
+    id:7,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/nadikar-et00392130-1714663962.jpg",
+    bannerImage:
+      "https://images.indianexpress.com/2024/05/Nadikar-movie-review.jpg",
+    title: "Nadikar",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy",
+    language: "Malayalam",
+    description:
+      "It follows the life of superstar David padikkal. David is a good actor but there comes a point in his life when he is forced to look inward to locate his real character and go beyond the facade of the star.",
+  },
+  {
+    id:8,
+    image:
+      "https://a.ltrbxd.com/resized/film-poster/1/0/0/7/9/0/0/1007900-apocalypse-z-the-beginning-of-the-end-0-230-0-345-crop.jpg?v=94e5e477b7",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/9569aebe2d384efd1514c295a56e6002112622b8fbc20beccd1a8f319d298de9._SX1080_FMjpg_.jpg",
+    title: "Apocalypse Z: The Beginning of the End",
+    year: "2024",
+    rating: "U/A",
+    season: "Action/Horror",
+    language: "English",
+    description:
+      "Manel is sheltering from a rabies-like disease which sweeps the planet, until he is forced to leave and meet unlikely but essential traveling companions.",
+  },
+  {
+    id:9,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqxN_rXyicI6JFjnOm1lVeoYG0w99CF5uW0NHjpvMaDgil6kVQxZ76qTQXu0V10D_WwBhGPg",
+    bannerImage:
+      "https://www.sciencefriday.com/wp-content/uploads/2024/06/inside-out-2-promo.jpeg",
+    title: "Inside Out 2",
+    year: "2024",
+    rating: "U/A",
+    season: "Family/Comedy",
+    language: "3 languages",
+    description:
+      "A sequel that features Riley entering puberty and experiencing brand new, more complex emotions as a result. As Riley tries to adapt to her teenage years, her old emotions try to adapt to the possibility of being replaced.",
+  },
+  {
+    id:10,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/821d889bc57746a738aebf496d79ad41a260ab2450a7aea4f39d2ce863099249.jpg",
+    bannerImage:
+      "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/03/godzilla-x-kong_-the-new-empire-2024-poster.jpg",
+    title: "Godzilla x Kong: The New Empire",
+    year: "2024",
+    rating: "PG-13",
+    season: "Action/Sci-fi",
+    language: "7 languages",
+    description:
+      "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.",
+  },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+
+
+
+
+];
+const newReleasesData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const actionData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const comedyData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const dramaData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const scifiData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const horrorData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const animeData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const familyData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+const intlData = [
+    // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+  // {
+  //   id: ,
+  //   image:
+  //     "",
+  //   bannerImage:
+  //     "",
+  //   title: "",
+  //   year: "",
+  //   rating: "U/A",
+  //   season: " ",
+  //   language: "languages",
+  //   description:
+  //     "",
+  // },
+];
+
+// Extend the document.addEventListener DOMContentLoaded function
+document.addEventListener("DOMContentLoaded", () => {
+  // Existing code
+  createGalleries();
+
+  // Add close button event listeners for both expanded cards
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", () => closeExpandedCard("expandedCard"));
+    
+  document
+    .getElementById("favoritesCloseButton")
+    .addEventListener("click", () => closeExpandedCard("favoritesExpandedCard"));
+
+  // Close expanded cards when clicking outside the content
+  document.getElementById("expandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("expandedCard")) {
+      closeExpandedCard("expandedCard");
+    }
+  });
+  
+  document.getElementById("favoritesExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("favoritesExpandedCard")) {
+      closeExpandedCard("favoritesExpandedCard");
+    }
+  });
+  
+  // Add scroll button functionality for both galleries
+  document.getElementById("scrollLeft").addEventListener("click", () => {
+    document.getElementById("gallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("scrollRight").addEventListener("click", () => {
+    document.getElementById("gallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("favoritesScrollLeft").addEventListener("click", () => {
+    document.getElementById("favoritesGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("favoritesScrollRight").addEventListener("click", () => {
+    document.getElementById("favoritesGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+
+  // New code for additional genre galleries
+  
+  // Initialize new galleries if there's data
+  if (trendingData.length > 0) {
+    const trendingRow = document.getElementById("trendingRow");
+    createGalleryItems(trendingData, trendingRow, "trending");
+  }
+  
+  if (newReleasesData.length > 0) {
+    const newReleasesRow = document.getElementById("newReleasesRow");
+    createGalleryItems(newReleasesData, newReleasesRow, "newReleases");
+  }
+  
+  if (actionData.length > 0) {
+    const actionRow = document.getElementById("actionRow");
+    createGalleryItems(actionData, actionRow, "action");
+  }
+  
+  if (comedyData.length > 0) {
+    const comedyRow = document.getElementById("comedyRow");
+    createGalleryItems(comedyData, comedyRow, "comedy");
+  }
+  
+  if (dramaData.length > 0) {
+    const dramaRow = document.getElementById("dramaRow");
+    createGalleryItems(dramaData, dramaRow, "drama");
+  }
+  
+  if (scifiData.length > 0) {
+    const scifiRow = document.getElementById("scifiRow");
+    createGalleryItems(scifiData, scifiRow, "scifi");
+  }
+  
+  if (horrorData.length > 0) {
+    const horrorRow = document.getElementById("horrorRow");
+    createGalleryItems(horrorData, horrorRow, "horror");
+  }
+  
+  if (animeData.length > 0) {
+    const animeRow = document.getElementById("animeRow");
+    createGalleryItems(animeData, animeRow, "anime");
+  }
+  
+  if (familyData.length > 0) {
+    const familyRow = document.getElementById("familyRow");
+    createGalleryItems(familyData, familyRow, "family");
+  }
+  
+  if (intlData.length > 0) {
+    const intlRow = document.getElementById("intlRow");
+    createGalleryItems(intlData, intlRow, "intl");
+  }
+  
+  // Add close button event listeners for new expanded cards
+  document
+    .getElementById("trendingCloseButton")
+    .addEventListener("click", () => closeExpandedCard("trendingExpandedCard"));
+    
+  document
+    .getElementById("newReleasesCloseButton")
+    .addEventListener("click", () => closeExpandedCard("newReleasesExpandedCard"));
+    
+  document
+    .getElementById("actionCloseButton")
+    .addEventListener("click", () => closeExpandedCard("actionExpandedCard"));
+    
+  document
+    .getElementById("comedyCloseButton")
+    .addEventListener("click", () => closeExpandedCard("comedyExpandedCard"));
+    
+  document
+    .getElementById("dramaCloseButton")
+    .addEventListener("click", () => closeExpandedCard("dramaExpandedCard"));
+    
+  document
+    .getElementById("scifiCloseButton")
+    .addEventListener("click", () => closeExpandedCard("scifiExpandedCard"));
+    
+  document
+    .getElementById("horrorCloseButton")
+    .addEventListener("click", () => closeExpandedCard("horrorExpandedCard"));
+    
+  document
+    .getElementById("animeCloseButton")
+    .addEventListener("click", () => closeExpandedCard("animeExpandedCard"));
+    
+  document
+    .getElementById("familyCloseButton")
+    .addEventListener("click", () => closeExpandedCard("familyExpandedCard"));
+    
+  document
+    .getElementById("intlCloseButton")
+    .addEventListener("click", () => closeExpandedCard("intlExpandedCard"));
+  
+  // Add click event listeners for expanded cards
+  document.getElementById("trendingExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("trendingExpandedCard")) {
+      closeExpandedCard("trendingExpandedCard");
+    }
+  });
+  
+  document.getElementById("newReleasesExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("newReleasesExpandedCard")) {
+      closeExpandedCard("newReleasesExpandedCard");
+    }
+  });
+  
+  document.getElementById("actionExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("actionExpandedCard")) {
+      closeExpandedCard("actionExpandedCard");
+    }
+  });
+  
+  document.getElementById("comedyExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("comedyExpandedCard")) {
+      closeExpandedCard("comedyExpandedCard");
+    }
+  });
+  
+  document.getElementById("dramaExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("dramaExpandedCard")) {
+      closeExpandedCard("dramaExpandedCard");
+    }
+  });
+  
+  document.getElementById("scifiExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("scifiExpandedCard")) {
+      closeExpandedCard("scifiExpandedCard");
+    }
+  });
+  
+  document.getElementById("horrorExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("horrorExpandedCard")) {
+      closeExpandedCard("horrorExpandedCard");
+    }
+  });
+  
+  document.getElementById("animeExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("animeExpandedCard")) {
+      closeExpandedCard("animeExpandedCard");
+    }
+  });
+  
+  document.getElementById("familyExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("familyExpandedCard")) {
+      closeExpandedCard("familyExpandedCard");
+    }
+  });
+  
+  document.getElementById("intlExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("intlExpandedCard")) {
+      closeExpandedCard("intlExpandedCard");
+    }
+  });
+  
+  // Add scroll button functionality for new galleries
+  document.getElementById("trendingScrollLeft").addEventListener("click", () => {
+    document.getElementById("trendingGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("trendingScrollRight").addEventListener("click", () => {
+    document.getElementById("trendingGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("newReleasesScrollLeft").addEventListener("click", () => {
+    document.getElementById("newReleasesGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("newReleasesScrollRight").addEventListener("click", () => {
+    document.getElementById("newReleasesGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("actionScrollLeft").addEventListener("click", () => {
+    document.getElementById("actionGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("actionScrollRight").addEventListener("click", () => {
+    document.getElementById("actionGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("comedyScrollLeft").addEventListener("click", () => {
+    document.getElementById("comedyGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("comedyScrollRight").addEventListener("click", () => {
+    document.getElementById("comedyGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("dramaScrollLeft").addEventListener("click", () => {
+    document.getElementById("dramaGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("dramaScrollRight").addEventListener("click", () => {
+    document.getElementById("dramaGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("scifiScrollLeft").addEventListener("click", () => {
+    document.getElementById("scifiGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("scifiScrollRight").addEventListener("click", () => {
+    document.getElementById("scifiGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("horrorScrollLeft").addEventListener("click", () => {
+    document.getElementById("horrorGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("horrorScrollRight").addEventListener("click", () => {
+    document.getElementById("horrorGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("animeScrollLeft").addEventListener("click", () => {
+    document.getElementById("animeGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("animeScrollRight").addEventListener("click", () => {
+    document.getElementById("animeGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("familyScrollLeft").addEventListener("click", () => {
+    document.getElementById("familyGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("familyScrollRight").addEventListener("click", () => {
+    document.getElementById("familyGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("intlScrollLeft").addEventListener("click", () => {
+    document.getElementById("intlGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("intlScrollRight").addEventListener("click", () => {
+    document.getElementById("intlGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+});
+
+// Function to create gallery items for both galleries
+function createGalleries() {
+  // Create recommended movies gallery
+  const galleryRow = document.getElementById("galleryRow");
+  createGalleryItems(galleryData, galleryRow, "recommended");
+  
+  // Create all time favorites gallery
+  const favoritesRow = document.getElementById("favoritesRow");
+  createGalleryItems(favoritesData, favoritesRow, "favorites");
+}
+
+// Function to create gallery items for a specific gallery
+function createGalleryItems(data, container, galleryType) {
+  if (!container) return;
+  
+  data.forEach((item) => {
     const galleryItem = document.createElement("div");
     galleryItem.className = "gallery-item";
     galleryItem.dataset.id = item.id;
+    galleryItem.dataset.galleryType = galleryType;
 
     galleryItem.innerHTML = `
         <img src="${item.image}" alt="${item.title}" class="gallery-poster">
@@ -579,22 +2389,25 @@ function createGallery() {
             </div>
         </div>`;
 
-    galleryRow.appendChild(galleryItem);
+    container.appendChild(galleryItem);
 
     // Add event listener to watch button
     const watchButton = galleryItem.querySelector(".watch-button");
     watchButton.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      showExpandedCard(item);
+      
+      // Determine which expanded card to use based on gallery type
+      const expandedCardId = galleryType === "recommended" ? "expandedCard" : "favoritesExpandedCard";
+      showExpandedCard(item, expandedCardId);
     });
   });
 }
 
 // Function to show expanded card with the correct image (poster or banner)
-function showExpandedCard(item) {
-  const expandedCard = document.getElementById("expandedCard");
-  const expandedContent = document.getElementById("expandedContent");
+function showExpandedCard(item, expandedCardId) {
+  const expandedCard = document.getElementById(expandedCardId);
+  const expandedContent = expandedCard.querySelector(".expanded-content");
 
   expandedContent.innerHTML = `
         <img src="${item.bannerImage}" class="expanded-image" alt="${item.title}">
@@ -612,7 +2425,7 @@ function showExpandedCard(item) {
 
   expandedCard.style.display = "flex";
 
-  // Add event listener to watch-list button in expanded card (optional)
+  // Add event listener to watch-list button in expanded card
   const expandedWatchListButton = expandedContent.querySelector(".watch-list");
   expandedWatchListButton.addEventListener("click", (e) => {
     e.preventDefault();
@@ -621,32 +2434,93 @@ function showExpandedCard(item) {
   });
 }
 
-// Function to handle adding to watchlist (optional)
+// Function to handle adding to watchlist
 function addToWatchlist(item) {
   console.log(`Added to watchlist: ${item.title}`);
 }
 
 // Function to close expanded card
-function closeExpandedCard() {
-  const expandedCard = document.getElementById("expandedCard");
+function closeExpandedCard(expandedCardId) {
+  const expandedCard = document.getElementById(expandedCardId);
   expandedCard.style.display = "none";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  createGallery();
+  createGalleries();
 
-  // Add close button event listener
+  // Add close button event listeners for both expanded cards
   document
     .getElementById("closeButton")
-    .addEventListener("click", closeExpandedCard);
+    .addEventListener("click", () => closeExpandedCard("expandedCard"));
+    
+  document
+    .getElementById("favoritesCloseButton")
+    .addEventListener("click", () => closeExpandedCard("favoritesExpandedCard"));
 
-  // Close expanded card when clicking outside the content
+  // Close expanded cards when clicking outside the content
   document.getElementById("expandedCard").addEventListener("click", (e) => {
     if (e.target === document.getElementById("expandedCard")) {
-      closeExpandedCard();
+      closeExpandedCard("expandedCard");
     }
   });
+  
+  document.getElementById("favoritesExpandedCard").addEventListener("click", (e) => {
+    if (e.target === document.getElementById("favoritesExpandedCard")) {
+      closeExpandedCard("favoritesExpandedCard");
+    }
+  });
+  
+  // Add scroll button functionality for both galleries
+  document.getElementById("scrollLeft").addEventListener("click", () => {
+    document.getElementById("gallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("scrollRight").addEventListener("click", () => {
+    document.getElementById("gallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("favoritesScrollLeft").addEventListener("click", () => {
+    document.getElementById("favoritesGallery").scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  });
+  
+  document.getElementById("favoritesScrollRight").addEventListener("click", () => {
+    document.getElementById("favoritesGallery").scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Scrolling Functionality

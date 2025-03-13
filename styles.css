@@ -1208,3 +1208,158 @@ transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, color 0.3s 
 
 
 
+
+
+/* Footer */
+.footer {
+  position: relative;
+  background: url('./image/back-ground.jpg') no-repeat center center/cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem 1rem; /* Further reduced padding */
+}
+
+
+.footer-overlay {
+  padding: 1rem; /* Reduced padding */
+  transition: backdrop-filter 0.5s ease-in-out;
+}
+
+.footer-overlay:hover {
+  backdrop-filter: blur(2px); /* Smooth blur effect on hover */
+  
+}
+
+/* Footer Container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  gap: 0.5rem; /* Further reduced gap */
+  align-items: start;
+  text-align: left;
+  opacity: 0;
+  position: relative;
+  top: 20px;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Branding */
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  width: 90px; /* Slightly smaller */
+  margin-bottom: 0.3rem; /* Reduced spacing */
+  transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1) rotate(5deg); /* Subtle hover effect */
+}
+
+/* Navigation & Info */
+.footer-nav ul,
+.footer-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li,
+.footer-info ul li {
+  margin-bottom: 0.2rem; /* Reduced spacing */
+}
+
+.footer-nav a,
+.footer-info a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 0.8rem; /* Slightly smaller font */
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-nav a:hover,
+.footer-info a:hover {
+  color: #00ccff; /* Cool neon blue */
+  text-shadow: 0 0 6px #00ccff;
+}
+
+/* Social Icons */
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+position: relative;
+bottom: 18px;
+}
+
+.footer-social h4 {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.footer-social a {
+  color: white;
+  font-size: 1.2rem; /* Slightly smaller icons */
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.footer-social a:hover {
+  color: #00ccff;
+  transform: scale(1.15) rotate(16deg);
+}
+
+/* Copyright */
+.footer-copyright {
+position: relative;
+bottom: 20px;
+  grid-column: span 4;
+  text-align: center;
+  font-size: 12px; /* Slightly smaller text */
+  color: #bbb;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 1.5s ease-in-out forwards;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 0.3rem; /* Further reduced gap */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand, .footer-nav, .footer-info, .footer-social {
+    text-align: center;
+  }
+}
+
+
