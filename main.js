@@ -1554,106 +1554,120 @@ const comedyData = [
     description:
       "Two criminal twin brothers, one who is trying to reform, embark on a dangerous heist road trip. Facing legal troubles, gunfights, and family drama, they must reconcile their differences before their mission leads to self-destruction.",
   },
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 9,
+    image:
+      "https://assetscdn1.paytm.com/images/cinema/172446-0449dad0-3f4f-11ef-95aa-f7343890830b.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/533a42b699461d5450bf87a90626050532f1e2185ac0f1db8ec58eb8f20e7d0f.jpg",
+    title: "Soodhu Kavvum 2",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy/Drama",
+    language: "Tamil",
+    description:
+      "A gang of kidnappers find they have bitten off more than they can chew.",
+  },
+    {
+    id: 10,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/ea69a214aae320b318948bfe528000204a2f6aa3477d5961bf62af74446a92b5.jpg",
+    bannerImage:
+      "https://static01.nyt.com/images/2024/09/27/multimedia/26saturday-night-review-mwlj/26saturday-night-review-mwlj-videoSixteenByNine3000.jpg",
+    title: "Saturday Night",
+    year: "2024",
+    rating: "R",
+    season: "Comedy/Biography",
+    language: "2 languages",
+    description:
+      "At 11:30pm on October 11th, 1975, a ferocious troupe of young comedians and writers changed television forever. Find out what happened behind the scenes in the 90 minutes leading up to the first broadcast of Saturday Night Live (1975).",
+  },
+    {
+    id: 11,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTsWe67gbLW0wI7vnU4QWWHRttb5vLz7ONgbdppQGnrQsyjX-t5Y4w1HBtTWzpSSPgDxwFK",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/486/1707127570486-i",
+    title: "Neymar",
+    year: "2023",
+    rating: "U",
+    season: "Comedy/Drama",
+    language: "4 languages",
+    description:
+      "Kunjava and his friend Sinto bring a new furry friend named Neymar into their lives. Little did they know that their lives were about to be turned upside down.",
+  },
+    {
+    id:12 ,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSeLSwuLrn5bVP5CNyQEZSfmOENqW3nw_KAM7ZAxo30_dxxaEdkhITO8RV2mt2zG8jw7KEWnw",
+    bannerImage:
+      "https://images.hindustantimes.com/img/2022/01/26/1600x900/bro_daddy_review_1643191350116_1643191358222.png",
+    title: "Bro Daddy",
+    year: "2022",
+    rating: "U/A",
+    season: "Comedy/Drama",
+    language: "2 languages",
+    description:
+      "The plot revolves around the life of a family man. Unexpected events happen in their house. The brother and father decide to take on the challenges.",
+  },
+      {
+    id: 13,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPUUowU1YIWUNy9wzpZN6z5vL0yKAORGVaS7tVnL5I_eyo99g0y9zx5kC-X_u1m7VnG5y0",
+    bannerImage:
+      "https://i.ytimg.com/vi/wd1YOBnwX90/maxresdefault.jpg",
+    title: "Oh My Ghost",
+    year: "2022",
+    rating: "U/A",
+    season: "Horror/Comedy",
+    language: "Tamil",
+    description:
+      "When a single woman and her two friends reach a small town, they begin to discover their connection to a ghost and the secret legacy their grandfather left behind.",
+  },
 ];
 const dramaData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 1,
+    image:
+      "https://i.pinimg.com/736x/de/9a/d9/de9ad956254a06d4a727d054f045da74.jpg",
+    bannerImage:
+      "https://www.indiewire.com/wp-content/uploads/2019/08/Spahn-Ranch-2.jpg?w=600&h=337&crop=1",
+    title: "Once Upon a Time... in Hollywood",
+    year: "2019",
+    rating: "R",
+    season: "Drama/Comedy",
+    language: "3 languages",
+    description:
+      "As Hollywood's Golden Age is winding down during the summer of 1969, television actor Rick Dalton and his stunt double Cliff Booth endeavor to achieve lasting success in Hollywood while meeting several colorful characters along the way.",
+  },
+  {
+    id: 2,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMGZlZTE3N2EtMGFmZS00MjIxLWI0Y2UtOTU4MDNjMmVmZjRhXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://th-i.thgim.com/public/entertainment/movies/ep5z0x/article67776335.ece/alternates/LANDSCAPE_1200/BlueStar%20Review.jpeg",
+    title: "Blue Star",
+    year: "2024",
+    rating: "U/A",
+    season: "Sport/Drama",
+    language: "4 languages",
+    description:
+      "The cricket captains of Arakkonam, Ranjith and Rajesh, ignite a rivalry that ruins their chances of playing when politics interferes.",
+  },
+  {
+    id: 3,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGNsk7gjCacTFiHGLsXkw69zzw5NhEmcPDzH6ffF3Tyi2LK3c2_Qg4NkyNNvxdnf20zOVO",
+    bannerImage:
+      "https://s.yimg.com/ny/api/res/1.2/NvDRuXhJv1w9kI20o5xHOQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTg-/https://s.yimg.com/os/creatr-uploaded-images/2021-06/9add3540-d4f0-11eb-a6df-f7c9fb93c5f3",
+    title: "Waiting for Rain",
+    year: "2021",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "2 languages",
+    description:
+      "Strangers Young-ho and So-hee confide in each other through the exchange of handwritten letters in the early 2000s.",
+  },
   // {
   //   id: ,
   //   image:
