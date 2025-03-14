@@ -857,352 +857,703 @@ const trendingData = [
     description:
       "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.",
   },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-
-
-
-
+  {
+    id:11,
+    image:
+      "https://lionsgate.brightspotcdn.com/de/a6/312c558543a2bdab386cfe38e3d0/the-killers-game-movies-he-poster-01.jpg",
+    bannerImage:
+      "https://i.ytimg.com/vi/eyJBleZ6hJM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA-4liSjmj_DsYfJddRn-4zcl3R4w",
+    title: "The Killer's Game",
+    year: "2024",
+    rating: "R",
+    season: "Action/Thriller",
+    language: "English",
+    description:
+      "When a hitman is diagnosed with a terminal illness, he decides to take a hit out on himself. But when the very hitmen he hired also target his ex-girlfriend, he must fend off an army of assassin colleagues.",
+  },
+  {
+    id:12,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNjc5MmMwN2MtODllZi00MWYwLWFmYWItMjViOTFmYWM3ZmUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://th-i.thgim.com/public/entertainment/movies/4vtyyq/article69275909.ece/alternates/FREE_1200/_A0A5483.JPG",
+    title: "Aghathiyaa",
+    year: "2025",
+    rating: "U/A",
+    season: "Horror/Fantasy",
+    language: "Tamil",
+    description:
+      "A group of entrepreneurs discover the dark history of a mansion when they attempt to turn a profit by converting it into a haunted house.",
+  },
+  {
+    id:13,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYTA5NzVjYTktOTJjOC00NWFiLWI2ZGEtZmFmNzU1MzNiYmEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202501/yash-082148120-16x9_0.jpg?VersionId=Q28Knbr5lYAIsF6Heo_IP5C_Xd_ORyMA&size=690:388",
+    title: "Toxic: A Fairy Tale for Grown-Ups",
+    year: "2025",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "4 languages",
+    description:
+      "Set in old Goa, a drug cartel controls paradise behind its sunlit beaches and rich culture in this gripping tale of power and deception.",
+  },
+  {
+    id:14,
+    image:
+      "https://in.bmscdn.com/events/moviecard/ET00434570.jpg",
+    bannerImage:
+      "https://images.ottplay.com/images/mithya-1738834840.jpg?impolicy=ottplay-202501_high&width=600",
+    title: "Mithya",
+    year: "2023",
+    rating: "U/A",
+    season: "Drama",
+    language: "kannada",
+    description:
+      "It is a poignant journey of eleven-year-old Mithun, as he navigates a challenging path of self-discovery and resilience after a devastating loss shatters his world.",
+  },
 ];
+
+
 const newReleasesData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+     {
+    id:0,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/hi-nanna-et00364503-1701678655.jpg",
+    bannerImage:
+      "https://www.koimoi.com/wp-content/new-galleries/2024/02/hi-nanna-movie-review-a-family-drama-weaving-love-and-its-resilience-02.jpg",
+    title: "Hi Nanna",
+    year: "2023",
+    rating: "U",
+    season: "Romance/Drama",
+    language: "4 languages",
+    description:
+      "A single father begins to narrate the story of the missing mother to his child and nothing remains the same.",
+  },
+    {
+    id:1,
+    image:
+      "https://musicart.xboxlive.com/7/ccb86600-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+    bannerImage:
+      "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/05/halle-bailey-in-the-little-mermaid.jpg",
+    title: "The Little Mermaid",
+    year: "2023",
+    rating: "PG",
+    season: "Fantasy/Family",
+    language: "3 languages",
+    description:
+      "A young mermaid makes a deal with a sea witch to trade her beautiful voice for human legs so she can discover the world above water and impress a prince.",
+  },
+  {
+    id:2,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BOTQ1YTA5ZDQtYzk4Yi00OGE2LTlkNmYtOGJmYjgwNjFkNjZhXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://assets-in.bmscdn.com/discovery-catalog/events/et00351087-sxntkbzwee-landscape.jpg",
+    title: "Let's Get Married",
+    year: "2023",
+    rating: "U",
+    season: "Comedy/Romance",
+    language: "Tamil",
+    description:
+      "An intertwined couple who share both a workplace and a romantic bond that has flourished for a span exceeding two years.",
+  },
+  {
+    id:3,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/7a8023893eb8675819c3725e0169dafd940913bdedbc61d0f81cbb2997ccfe9a.jpg",
+    bannerImage:
+      "https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2017/10/06/Pictures/_4772dcce-aa5c-11e7-92d8-206e76e802d4.jpg",
+    title: "Solo",
+    year: "2017",
+    rating: "U",
+    season: " Action/Romance",
+    language: "4 languages",
+    description:
+      "An anthology, telling the story of four different people, each story revolving around four different elements: Earth, Fire, Wind and Water.",
+  },
+  {
+    id:4,
+    image:
+      "https://wallpapercave.com/wp/wp12359471.jpg",
+    bannerImage:
+      "https://chennaionline.com/wp-content/uploads/2023/02/Dada-Movie-Stills-69-1024x683.jpg",
+    title: "Dada",
+    year: "2023",
+    rating: "U",
+    season: "Romance/Drama",
+    language: "4 languages",
+    description:
+      "A couple in love, accidentally become teenage parents. Unpleasant situations make them fall apart. Manikandan, left alone with his son, struggles as a single teenage father. Fate owns him, bringing Sindhu back into his life.",
+  },
+  {
+    id:5,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/premalu-tamil-et00391009-1710506570.jpg",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/1032/1712839861032-i",
+    title: "Premalu",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy/Romance",
+    language: "4 languages",
+    description:
+      "Sachin's quest for love takes unexpected turns, creating a laughter-filled love triangle.",
+  },
+  {
+    id:6,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/0243e31e3fea5624f9c8532e468d5eb45173e593054886d31162eb20580c3b78.jpg",
+    bannerImage:
+      "https://images.kinorium.com/movie/shot/776446/h280_1166621.jpg",
+    title: "La La Land",
+    year: "2016",
+    rating: "A",
+    season: "Musical/Romance",
+    language: "2 languages",
+    description:
+      "When Sebastian, a pianist, and Mia, an actress, follow their passion and achieve success in their respective fields, they find themselves torn between their love for each other and their careers.",
+  },
+  {
+    id:7,
+    image:
+      "https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fgracenote%2F03311b74478783940314f25436c0fced.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/cb22300f03e3eebf8fb4dde0d58fdc520f62576448f3e499e0b1bc068b5a8170._SX1080_FMjpg_.jpg",
+    title: "My Fault",
+    year: "2023",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: " 6 languages",
+    description:
+      "Noah has to leave her town, boyfriend and friends behind and move into the mansion of her mother's new rich husband. There she meets Nick, her new stepbrother. They fall madly in love in secret.",
+  },
+  {
+    id:8,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqBH9DB6_Sc7ED_ksqUuCAKkS6C4tmwiLsPtbfUTjaV3zEMI-_z-2uZJ2Xb_nCLrh6CkjX",
+    bannerImage:
+      "https://static.toiimg.com/photo/73579998.cms",
+    title: "Oh My Kadavule",
+    year: "2020",
+    rating: "U/A",
+    season: "Romance/Fantasy",
+    language: "4 languages",
+    description:
+      "When you think marrying your best friend means a 'happily ever-after', but it turns out to be just the reverse.",
+  },
+    {
+    id:9,
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15309263_p_v8_ac.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/5a672cf082ce060dee0ce7043b988f1b2e74c93bbad8b5eb86b82dc000463239.jpg",
+    title: "Be with You",
+    year: "2018",
+    rating: "U/A",
+    season: "Romance/Fantasy",
+    language: "2 languages",
+    description:
+      "Woo Jin raises his son Ji Ho alone after his wife Soo A's passing. A year later, on a rainy day, she returns—but with no memory of her past.",
+  },
+    {
+    id:10,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFd5UzKx8uiOcZeZqFEpl49YCriiw-t1CKbXJVQiJwyuUVzpGcJXRrNZPbWrNc_0nyo2bZ",
+    bannerImage:
+      "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-ssv3aviprl5kttspne19rbjvp6-20190421211953.Medi.jpeg",
+    title: "De De Pyaar De",
+    year: "2019",
+    rating: "U/A",
+    season: "Romance/Comedy",
+    language: "3 languages",
+    description:
+      "A 50-year-old single father faces disapproval from his family and his ex-wife when he falls in love with a 26-year-old woman.",
+  },
+    {
+    id: 11,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRVzF07dXDb9M3T3npxI_TzAZNvPRduzRL4lxaefSXAa4pP-k9haymypZELTSTeybWZVV6V1Q",
+    bannerImage:
+      "https://i0.wp.com/thehollywoodhandle.co/wp-content/uploads/2024/02/float-movies-he-gallery-07.jpg?fit=900%2C572&ssl=1",
+    title: "Float",
+    year: "2023",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "2 languages",
+    description:
+      "After she nearly drowns, a young woman unexpectedly falls for the small-town lifeguard who rescued her. Based on the novel by Kate Marchant.",
+  },
+     {
+    id: 11.5,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpUS7DkFMk-pCHwJvL2qzFhIPUv-IZgLU87GnEzXNYQCx3e1NfstGZVsKqtvVTjMKHUJSJ",
+    bannerImage:
+      "https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1t2tftx_e1382d20.jpeg?region=0%2C0%2C1580%2C880",
+    title: "Tangled",
+    year: "2010",
+    rating: "U",
+    season: "Family/Musical",
+    language: "4 languages",
+    description:
+      "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+  },
+    {
+    id:12,
+    image:
+      "https://cdn.moviefone.com/image-assets/1097000/jNyLZjIgaYVkBli2JihHwABlAPY.jpg?d=360x540&q=60",
+    bannerImage:
+      "https://image.tmdb.org/t/p/w780/tsu10dpA3kskGNL9EVcKl2DUh4q.jpg",
+    title: "Lubber Pandhu",
+    year: "2024",
+    rating: "U",
+    season: "Sport/Romance",
+    language: "4 languages",
+    description:
+      "Set in a rural backdrop, gully cricket stars Gethu and Anbu's rivalry intensifies when Anbu falls for Gethu's daughter, testing their skills and emotions.",
+  },
+    {
+    id:13,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJVvLYOeK82BVLasc9jnS9LhNQdwgmeNPy4NQb_SphLpELsES5ja-cqZnXB9t7AqaM0Wl",
+    bannerImage:
+      "https://images.justwatch.com/backdrop/312128699/s640/anyone-but-you",
+    title: "Anyone but You",
+    year: "2023",
+    rating: "U/A",
+    season: "Comedy/Romance",
+    language: "6 languages",
+    description:
+      "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia.",
+  },
+    {
+    id:14,
+    image:
+      "https://musicart.xboxlive.com/7/afb05000-0000-0000-0000-000000000002/504/image.jpg",
+    bannerImage:
+      "https://www.cnet.com/a/img/resize/7e2cb88fc37e390f99bdc23b537774f15f8d30cf/hub/2018/03/09/3f6bc33b-43bf-467f-88fe-435bf59cd380/shape-of-water-mr-x-vfx-26a-211-050-plate.jpg?auto=webp&fit=crop&height=675&precrop=2048,1041,x0,y111&width=1200",
+    title: "The Shape of Water",
+    year: "2017",
+    rating: "U/A",
+    season: "Fantasy/Romance",
+    language: "4 languages",
+    description:
+      "At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.",
+  },
+     {
+    id: 15,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQZO6IQrtLJ-LF8n2BeXwUv8gI_xGZAe2ZqerEFjKAW0y9h3tZKOTqm2KT5_ExpYg55bZPvmA",
+    bannerImage:
+      "https://th-i.thgim.com/public/incoming/7y97v1/article67259201.ece/alternates/FREE_1200/Kushi%20new.jpg",
+    title: "Kushi",
+    year: "2023",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "4 languages",
+    description:
+      "Raised in an atheist household, a young man falls in love with the daughter of his father's arch-rival, a devout Hindu leader.",
+  },
+     {
+    id:16,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhAog2VgZibzpqa0MDJlKlAJ18zkEw_wMsTtIMfXxfWy7IraW6Q98OEtyr0Z1uGhbDiteo",
+    bannerImage:
+      "https://www.rollingstone.com/wp-content/uploads/2024/10/WLIT_05307.jpg?w=1581&h=1054&crop=1",
+    title: "We Live in Time",
+    year: "2024",
+    rating: "U/A",
+    season: "Romance/Comedy",
+    language: "2 languages",
+    description:
+      "After an unusual encounter, a talented chef and a recently divorcée fall in love and build the home and family they've always dreamed of, until a painful truth puts their love story to the test.",
+  },
+    {
+    id:17,
+    image:
+      "https://play-lh.googleusercontent.com/proxy/cf2kdLQjX1RxBqKXLmI2c7vFptkoGHj6yfOEyvC8OqLpkvZsy1k89vkA-pXVZpSaXab1xxVEb9rtZNhBJz1M7MXgvk0bhTieVq0IHuzpX55utMqZJgjVfMkkJJ665WPl1ZcznYb74LzwuvNgH9o-cwg9niOt_f-yqiOnHA",
+    bannerImage:
+      "https://filmysasi.com/wp-content/uploads/2022/01/Hridayam-768x469.jpg",
+    title: "Hridayam",
+    year: "2022",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "3 languages",
+    description:
+      "The emotional journey of Arun, his carefree bachelor days in engineering college, and how he matures through various phases of life.",
+  },
+      {
+    id: 18,
+    image:
+      "https://m.media-amazon.com/images/I/41n9cJrBmCL._SL500_._SL200_.jpg",
+    bannerImage:
+      "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQqNac6HfOIxvSGGRilsbXy0U2QkEY-FJ1C5uI_O28Q0AhI_d0g3vJh80-ahCr-YGVB4ILNZeJn9E-uitOSJ9JpuGrhAJEUzcJLf.jpg?r=b26",
+    title: "After We Fell",
+    year: "2021",
+    rating: "U/A",
+    season: "Romance/Drama",
+    language: "2 languages",
+    description:
+      "As Tessa faces a life-changing decision, shocking family revelations shake her and Hardin’s future, making their hard-won love harder to secure.",
+  }
 ];
+
 const actionData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id:1,
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17982732_p_v8_aa.jpg",
+    bannerImage:
+      "https://www.ritzmagazine.in/wp-content/uploads/2020/10/Suriyas-Soorarai-Pottru-To-Release-On-November-12.jpg",
+    title: "Soorarai Pottru",
+    year: "2020",
+    rating: "U",
+    season: "Action/Drama",
+    language: "4 languages",
+    description:
+      "A determined villager challenges the aviation industry's elite by pursuing his vision of affordable air travel for all, despite numerous obstacles and setbacks.",
+  },
+  {
+    id: 2,
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26360920_p_v13_af.jpg",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2024/02/LAND-OF-BAD_Still-7-copy.jpg?w=1296&h=730&crop=1",
+    title: "Land of Bad",
+    year: "2024",
+    rating: "R",
+    season: "Action/Thriller",
+    language: "4 languages",
+    description:
+      "A Delta Force team fights for survival as an Air Force drone pilot becomes its eyes in the sky.",
+  },
+  {
+    id: 3,
+    image:
+      "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/baby-john-et00386190-1733985497.jpg",
+    bannerImage:
+      "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2024/12/25153517/baby-john-movie-ending-explained-1600x900.jpg",
+    title: "Baby John",
+    year: "2024",
+    rating: "U/A",
+    season: "Action/Drama",
+    language: "3 languages",
+    description:
+      "Revolves around a DCP who transforms and travels to a different place in order to safeguard his family.",
+  },
+  {
+    id:4,
+    image:
+      "https://preview.redd.it/1f1xaomdv9a91.jpg?auto=webp&s=96bf2353dcfeacb4d2642348ba54377abe825795",
+    bannerImage:
+      "https://sc0.blr1.cdn.digitaloceanspaces.com/article/180399-iplywznfqy-1664103907.jpeg",
+    title: "Ponniyin Selvan: I",
+    year: "2022",
+    rating: "U/A",
+    season: "Action/Adventure",
+    language: "4 languages",
+    description:
+      "Vandiyathevan crosses the Chola land to deliver a message from the Crown Prince Aditha Karikalan, while Kundavai attempts to establish political peace as vassals and petty chieftains plot against the throne.",
+  },
+  {
+    id:5 ,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMTM3ZGUwYTEtZTI5NS00ZmMyLTk2YmQtMWU4YjlhZTI3NjRjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://images.firstpost.com/uploads/2024/06/MixCollage-26-Jun-2024-12-50-PM-8555-2024-06-717dd311caaba0508153dfd95549fc55.jpg?im=FitAndFill=(596,336)",
+    title: "Kalki 2898 AD",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci-fi/Action",
+    language: "3 languages",
+    description:
+      "The future of those in the dystopian city of Kasi is altered when the destined arrival of Lord Vishnu's final avatar launches a war against darkness.",
+  },
+  {
+    id: 6,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSuL2mkhIdCgi5yArS7QWKrUKYx57sphHBZ420xSnmg0ABNRg7XqE4tXQZNPeNxVQVmHsi",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2024/07/Lakshya-stars-in-KILL.-Photo-Credit-courtesy-of-Roadside-Attractions_rgb-H-2024.jpg?w=1296&h=730&crop=1",
+    title: "Kill",
+    year: "2024",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "4 languages",
+    description:
+      "During a train trip to New Delhi, a pair of commandos face an army of invading bandits.",
+  },
+  {
+    id: 7,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BODUyZjkxZDMtZGI3ZC00ZmEwLTgwMTUtYTU4OTQ5YjU4ZjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23920857/53B1661F_E5EF_4358_9ACF_9319989365C0.jpeg?quality=90&strip=all&crop=0.017857142857139,0,99.964285714286,100",
+    title: "Bullet Train",
+    year: "2022",
+    rating: "A",
+    season: "Action/Comedy",
+    language: "2 languages",
+    description:
+      "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common.",
+  },
+  {
+    id:8 ,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjm_Dh2ymeSgkYufVYQBHoR6dcO8QkNQFEiOw6wxGGZufMLkrcdOVkPjBvTaiJMLnFBlKaDw",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/4de3596c1b0690762bc3be8eeb4e1e06fa68e0addab1d7a0c993d29dbf2622c0._SX1080_FMjpg_.jpg",
+    title: "Viduthalai Part 1",
+    year: "2023",
+    rating: "U/A",
+    season: "Crime/Action",
+    language: "4 languages",
+    description:
+      "A police officer is recruited to capture the leader of a separatist group.",
+  },
+    {
+    id: 9,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVn0y7RuNHnktmebSF6Uf_bv6Ue5ZxMmrRR1I_Yz9Bvs51_P1AMV5ku8qB98PmOVTFK_oh",
+    bannerImage:
+      "https://www.myworldofmovies.in/wp-content/uploads/2022/06/vikram-two-latest.gif",
+    title: "Vikram",
+    year: "2022",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "4 languages",
+    description:
+      "A special investigator discovers a case of serial killings is not what it seems to be, and leading down this path is only going to end in a war between everyone involved.",
+  },
+    {
+    id: 10,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3giEteXGggow1hYtpRIuy3bDLO_Z9aoximYp_tuFK0Bb0N_fnmPaChKv1l_mgBxiiOwN3",
+    bannerImage:
+      "https://www.indiewire.com/wp-content/uploads/2023/09/JAWAN-Shah-Rukh-Khan.jpg",
+    title: "Jawan",
+    year: "2023",
+    rating: "U/A",
+    season: "Action/Thriller",
+    language: "6 languages",
+    description:
+      "A prison warden recruits inmates to commit outrageous crimes that shed light on corruption and injustice - and that lead him to an unexpected reunion.",
+  },
+    {
+    id: 11,
+    image:
+      "https://rukminim2.flixcart.com/image/850/1000/l01blow0/poster/4/p/s/medium-pirates-of-the-caribbean-on-good-quality-hd-quality-original-imagbx2ppdupkdka.jpeg?q=20&crop=false",
+    bannerImage:
+      "https://hips.hearstapps.com/hmg-prod/images/pirates-of-the-caribbean-movies-in-order-disney-plus-5-1655317294.png?crop=1xw:0.8069881889763779xh;center,top",
+    title: "Pirates of the Caribbean",
+    year: "2003-2017",
+    rating: "U/A",
+    season: "Action/Adventure",
+    language: "8 languages",
+    description:
+      "Blacksmith Will Turner teams up with eccentric pirate `Captain`` Jack Sparrow to save Elizabeth Swann, the governor's daughter and his love, from Jack's former pirate allies, who are now undead.",
+  },
+    {
+    id:12,
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/p_rayaandthelastdragon_21294_83346778.jpeg",
+    bannerImage:
+      "https://lumiere-a.akamaihd.net/v1/images/image_c2fe5514.jpeg?region=0,0,2048,878",
+    title: "Raya and the Last Dragon",
+    year: "2021",
+    rating: "U",
+    season: "Action/Adventure",
+    language: "6 languages",
+    description:
+      "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
+  },
+  {
+    id: 13,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgiGVlHabuN6dmgW_0E82BSRVkBETsvXdnSISCmefDySoIeQI0mak_0Le--LCe0bQK4vVrug",
+    bannerImage:
+      "https://images4.alphacoders.com/147/thumb-1920-147496.jpg",
+    title: "Tron: Legacy",
+    year: "2010",
+    rating: "U",
+    season: "Sci-fi/Action",
+    language: "4 languages",
+    description:
+      "The son of a virtual world designer goes looking for his father and ends up inside the digital world that his father designed.",
+  },
+    {
+    id: 14,
+    image:
+      "https://posterspy.com/wp-content/uploads/2024/10/Venom-The-Last-Dance-Poster.jpg",
+    bannerImage:
+      "https://www.dneg.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F3sjsytt3tkv5%2F1XTlbhMN6i2myR0FduXnF9%2Fd34a2e397e3e6b14afe80a67da79117c%2FVenom_The_Last_Dance9633.jpg&w=3840&q=75",
+    title: "Venom: The Last Dance",
+    year: "2024",
+    rating: "U/A",
+    season: "Action/Sci-fi",
+    language: "4 languages",
+    description:
+      "Eddie Brock and Venom must make a devastating decision as they're pursued by a mysterious military man and alien monsters from Venom's home world.",
+  },
+  {
+    id: 15,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanLn4C93_fZCHLoMmGhQHJLjM4eHbhN23Eu8OpF7-8wDqBw2ehb_TvjAknVD-8NvtqAinXw",
+    bannerImage:
+      "https://freestonecountytimesonline.com/wp-content/uploads/2023/05/fast-x-3.png",
+    title: "Fast X",
+    year: "2023",
+    rating: "PG-13",
+    season: "Action/Crime",
+    language: "6 languages",
+    description:
+      "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+  },
+   {
+    id:16,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTQwblbv-87AJXtZvlEEKwYGE2q9fbIN7V2dOJ_eC8wSzrvkgAc6eW4POcGDmKal-rKykDHAA",
+    bannerImage:
+      "https://www.koimoi.com/wp-content/new-galleries/2024/06/after-a-great-run-at-the-theaters-r-s-durai-senthilkumars-garudan-is-set-to-release-on-ott-soon-heres-when-and-where-to-watch-the-soori-starrer.jpg",
+    title: "Garudan",
+    year: "2024",
+    rating: "U/A",
+    season: "Action",
+    language: "4 languages",
+    description:
+      "Sokkan, the trusted confidant of childhood friends Aadhi and Karuna.But when his loyalty and self respect is put into test, which would he choose?",
+  },
+   {
+    id: 17,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/3bfd55d766b05a72eab00feb08fe2b61b14ca8d81fef5ec51a965e3743c89617.jpg",
+    bannerImage:
+      "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2023/05/gran-turismo-featured.jpg",
+    title: "Gran Turismo",
+    year: "2023",
+    rating: "PG-13",
+    season: "Action/Adventure",
+    language: "6 languages",
+    description:
+      "Based on the unbelievable, inspiring true story of a team of underdogs - a struggling, working-class gamer, a failed former race car driver, and an idealistic motorsport exec - who risk it all to take on the most elite sport in the world.",
+  },
+
 ];
 const comedyData = [
+ 
+  {
+    id: 1,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzLIriCYaZ7FT943c13L5FJ864hXGENgRGQprAnx7uD1VbC_c7S6ezd2t4vfCTZ1UywLpW",
+    bannerImage:
+      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/bloody-beggar-kavin-314825238-16x9_0.jpg?VersionId=wwXjG7y45y8od_Oo9KN7CKAMcNvue4L1",
+    title: "Bloody Beggar",
+    year: "2024",
+    rating: "U/A",
+    season: "Drama/Comedy",
+    language: "4 languages",
+    description:
+      "A beggar's life takes an unexpected turn when a misadventure upends his daily routine. Can he navigate the bizarre, witty situations that follow?",
+  },
+  {
+    id: 2,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQxLuXYOke3LVVab-L2S69U-TtWXbyfSEBiqOStErShoLPDXetHsTjltmL2nYMegr_MySyF",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/3bc0c53d84a20f007b04ed1fde7f0646be82f16e41f0d3b756a8de80b1015fae._SX1080_FMjpg_.jpg",
+    title: "Mark Antony",
+    year: "2023",
+    rating: "U/A",
+    season: "Comedy/Action",
+    language: "4 languages",
+    description:
+      "Mark, the son of gangster Antony, finds a telephone that has the ability to contact the past.",
+  },
+  {
+    id: 3,
+    image:
+      "https://www.acmodasi.in/amdb/images/movie/n/q/guruvayoor-ambalanadayil-2024-NaNoVx.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/cce72a7f92d7a52e6a6e18ddb29cd10fd1cc3da2c50e1c45c076dc7c124b501a.jpg",
+    title: "Guruvayoor Ambalanadayil",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy",
+    language: "3 languages",
+    description:
+      "A young man never wanted to marry because his girlfriend married someone else. Five years later, he was all set to get married. But a discovery about his bride's extended family forces him to reconsider? Will he marry her?",
+  },
+  {
+    id: 4,
+    image:
+      "https://images.justwatch.com/poster/315756972/s718/imaginary-friends.jpg",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2024/05/IF_VFX_012R-copy.jpg?w=1296&h=730&crop=1",
+    title: "IF",
+    year: "2024",
+    rating: "PG",
+    season: "Comedy/Fantasy",
+    language: "2 languages",
+    description:
+      "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+  },
+  {
+    id: 5,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/db8caaf1cb76c24c3a9423ef342abc43418fc2e0a0cc4e2dac8850d034acf9d8.jpg",
+    bannerImage:
+      "https://th-i.thgim.com/public/entertainment/movies/oeem6u/article68210846.ece/alternates/LANDSCAPE_1200/318A9580.JPG",
+    title: "PT Sir",
+    year: "2024",
+    rating: "U",
+    season: "Comedy/Drama",
+    language: "4 languages",
+    description:
+      "It follows a young teacher as he attempts to introduce unique physical activities to school children.",
+  },
+  {
+    id: 6,
+    image:
+      "https://image.tmdb.org/t/p/original/k5RWPaNjgRcNvGoawYaQHQwyctI.jpg",
+    bannerImage:
+      "https://upperstall.com/wp-content/uploads/2024/05/Aavesham.jpg",
+    title: "Aavesham",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy/Action",
+    language: "4 languages",
+    description:
+      "Three teenagers reach Bangalore for their engineering degree and gets involved in a fight with seniors. They find a local gangster named Ranga to help them take revenge.",
+  },
+  {
+    id: 7,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSI48Ohi0Zng9Jzb89gzgWxWgO4aLHQk7dJd-P4Pi4aWMX0oW7JTsQj8wYibOKiW8_A1RkZ",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8201/1408201-i-c547136405c1",
+    title: "Free Guy",
+    year: "2021",
+    rating: "A",
+    season: "Comedy/Action",
+    language: "6 languages",
+    description:
+      "When Guy, a bank teller, learns that he is a non-player character in a bloodthirsty, open-world video game, he goes on to become the hero of the story and takes the responsibility of saving the world.",
+  },
+    {
+    id: 8,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQrCrMYm7st-Rd1tG6PwkD470El4h-ngOPFVOICYGqcFDqGMordDYuPWt94tZ8uw3J2tdbm",
+    bannerImage:
+      "https://images.thedirect.com/media/article_full/brothers-movie-cast_mAwRH50.jpg",
+    title: "Brothers",
+    year: "2024",
+    rating: "U/A",
+    season: "Comedy/Action",
+    language: "4 languages",
+    description:
+      "Two criminal twin brothers, one who is trying to reform, embark on a dangerous heist road trip. Facing legal troubles, gunfights, and family drama, they must reconcile their differences before their mission leads to self-destruction.",
+  },
     // {
   //   id: ,
   //   image:
@@ -1217,7 +1568,7 @@ const comedyData = [
   //   description:
   //     "",
   // },
-  // {
+    // {
   //   id: ,
   //   image:
   //     "",
@@ -1231,7 +1582,7 @@ const comedyData = [
   //   description:
   //     "",
   // },
-  // {
+    // {
   //   id: ,
   //   image:
   //     "",
@@ -1245,63 +1596,7 @@ const comedyData = [
   //   description:
   //     "",
   // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
+    // {
   //   id: ,
   //   image:
   //     "",
@@ -2001,9 +2296,100 @@ const intlData = [
   // },
 ];
 
-// Extend the document.addEventListener DOMContentLoaded function
+// Function to create gallery items for both galleries
+function createGalleries() {
+  // Create recommended movies gallery
+  const galleryRow = document.getElementById("galleryRow");
+  createGalleryItems(galleryData, galleryRow, "recommended");
+  
+  // Create all time favorites gallery
+  const favoritesRow = document.getElementById("favoritesRow");
+  createGalleryItems(favoritesData, favoritesRow, "favorites");
+}
+
+// Function to create gallery items for a specific gallery
+function createGalleryItems(data, container, galleryType) {
+  if (!container) return;
+  
+  data.forEach((item) => {
+    const galleryItem = document.createElement("div");
+    galleryItem.className = "gallery-item";
+    galleryItem.dataset.id = item.id;
+    galleryItem.dataset.galleryType = galleryType;
+
+    galleryItem.innerHTML = `
+        <img src="${item.image}" alt="${item.title}" class="gallery-poster">
+        <div class="item-info">
+            <div class="item-title">${item.title}</div>
+            <div class="item-details">${item.year} • ${item.rating} • ${item.season} • ${item.language}</div>
+            <div class="item-description">${item.description}</div>
+            <div class="button-container">
+                <a href="#" class="watch-button">Watch Now</a>
+                <a href="#" class="watch-list">
+                    <span class="iconify" data-icon="uil:plus" width="25" height="25"></span>
+                </a>
+            </div>
+        </div>`;
+
+    container.appendChild(galleryItem);
+
+    // Add event listener to watch button
+    const watchButton = galleryItem.querySelector(".watch-button");
+    watchButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // Determine which expanded card to use based on gallery type
+      const expandedCardId = galleryType === "recommended" ? "expandedCard" : "favoritesExpandedCard";
+      showExpandedCard(item, expandedCardId);
+    });
+  });
+}
+
+// Function to show expanded card with the correct image (poster or banner)
+function showExpandedCard(item, expandedCardId) {
+  const expandedCard = document.getElementById(expandedCardId);
+  const expandedContent = expandedCard.querySelector(".expanded-content");
+
+  expandedContent.innerHTML = `
+        <img src="${item.bannerImage}" class="expanded-image" alt="${item.title}">
+        <div class="expanded-info">
+            <div class="item-title">${item.title}</div>
+            <div class="item-details">${item.year} • ${item.rating} • ${item.season} • ${item.language}</div>
+            <p style="margin-top: 15px; line-height: 1.5;">${item.description}</p>
+            <div class="button-container">
+                <a href="#" class="watch-button">Watch Now</a>
+                <a href="#" class="watch-list">
+                    <span class="iconify" data-icon="uil:plus" width="20" height="20"></span>
+                </a>
+            </div>
+        </div>`;
+
+  expandedCard.style.display = "flex";
+
+  // Add event listener to watch-list button in expanded card
+  const expandedWatchListButton = expandedContent.querySelector(".watch-list");
+  expandedWatchListButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    addToWatchlist(item);
+  });
+}
+
+// Function to handle adding to watchlist
+function addToWatchlist(item) {
+  console.log(`Added to watchlist: ${item.title}`);
+}
+
+// Function to close expanded card
+function closeExpandedCard(expandedCardId) {
+  const expandedCard = document.getElementById(expandedCardId);
+  expandedCard.style.display = "none";
+}
+
+// Main DOMContentLoaded event listener
 document.addEventListener("DOMContentLoaded", () => {
-  // Existing code
+  // Create galleries
   createGalleries();
 
   // Add close button event listeners for both expanded cards
@@ -2057,8 +2443,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // New code for additional genre galleries
-  
   // Initialize new galleries if there's data
   if (trendingData.length > 0) {
     const trendingRow = document.getElementById("trendingRow");
@@ -2354,151 +2738,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Function to create gallery items for both galleries
-function createGalleries() {
-  // Create recommended movies gallery
-  const galleryRow = document.getElementById("galleryRow");
-  createGalleryItems(galleryData, galleryRow, "recommended");
-  
-  // Create all time favorites gallery
-  const favoritesRow = document.getElementById("favoritesRow");
-  createGalleryItems(favoritesData, favoritesRow, "favorites");
-}
-
-// Function to create gallery items for a specific gallery
-function createGalleryItems(data, container, galleryType) {
-  if (!container) return;
-  
-  data.forEach((item) => {
-    const galleryItem = document.createElement("div");
-    galleryItem.className = "gallery-item";
-    galleryItem.dataset.id = item.id;
-    galleryItem.dataset.galleryType = galleryType;
-
-    galleryItem.innerHTML = `
-        <img src="${item.image}" alt="${item.title}" class="gallery-poster">
-        <div class="item-info">
-            <div class="item-title">${item.title}</div>
-            <div class="item-details">${item.year} • ${item.rating} • ${item.season} • ${item.language}</div>
-            <div class="item-description">${item.description}</div>
-            <div class="button-container">
-                <a href="#" class="watch-button">Watch Now</a>
-                <a href="#" class="watch-list">
-                    <span class="iconify" data-icon="uil:plus" width="25" height="25"></span>
-                </a>
-            </div>
-        </div>`;
-
-    container.appendChild(galleryItem);
-
-    // Add event listener to watch button
-    const watchButton = galleryItem.querySelector(".watch-button");
-    watchButton.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      
-      // Determine which expanded card to use based on gallery type
-      const expandedCardId = galleryType === "recommended" ? "expandedCard" : "favoritesExpandedCard";
-      showExpandedCard(item, expandedCardId);
-    });
-  });
-}
-
-// Function to show expanded card with the correct image (poster or banner)
-function showExpandedCard(item, expandedCardId) {
-  const expandedCard = document.getElementById(expandedCardId);
-  const expandedContent = expandedCard.querySelector(".expanded-content");
-
-  expandedContent.innerHTML = `
-        <img src="${item.bannerImage}" class="expanded-image" alt="${item.title}">
-        <div class="expanded-info">
-            <div class="item-title">${item.title}</div>
-            <div class="item-details">${item.year} • ${item.rating} • ${item.season} • ${item.language}</div>
-            <p style="margin-top: 15px; line-height: 1.5;">${item.description}</p>
-            <div class="button-container">
-                <a href="#" class="watch-button">Watch Now</a>
-                <a href="#" class="watch-list">
-                    <span class="iconify" data-icon="uil:plus" width="20" height="20"></span>
-                </a>
-            </div>
-        </div>`;
-
-  expandedCard.style.display = "flex";
-
-  // Add event listener to watch-list button in expanded card
-  const expandedWatchListButton = expandedContent.querySelector(".watch-list");
-  expandedWatchListButton.addEventListener("click", (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    addToWatchlist(item);
-  });
-}
-
-// Function to handle adding to watchlist
-function addToWatchlist(item) {
-  console.log(`Added to watchlist: ${item.title}`);
-}
-
-// Function to close expanded card
-function closeExpandedCard(expandedCardId) {
-  const expandedCard = document.getElementById(expandedCardId);
-  expandedCard.style.display = "none";
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  createGalleries();
-
-  // Add close button event listeners for both expanded cards
-  document
-    .getElementById("closeButton")
-    .addEventListener("click", () => closeExpandedCard("expandedCard"));
-    
-  document
-    .getElementById("favoritesCloseButton")
-    .addEventListener("click", () => closeExpandedCard("favoritesExpandedCard"));
-
-  // Close expanded cards when clicking outside the content
-  document.getElementById("expandedCard").addEventListener("click", (e) => {
-    if (e.target === document.getElementById("expandedCard")) {
-      closeExpandedCard("expandedCard");
-    }
-  });
-  
-  document.getElementById("favoritesExpandedCard").addEventListener("click", (e) => {
-    if (e.target === document.getElementById("favoritesExpandedCard")) {
-      closeExpandedCard("favoritesExpandedCard");
-    }
-  });
-  
-  // Add scroll button functionality for both galleries
-  document.getElementById("scrollLeft").addEventListener("click", () => {
-    document.getElementById("gallery").scrollBy({
-      left: -300,
-      behavior: "smooth"
-    });
-  });
-  
-  document.getElementById("scrollRight").addEventListener("click", () => {
-    document.getElementById("gallery").scrollBy({
-      left: 300,
-      behavior: "smooth"
-    });
-  });
-  
-  document.getElementById("favoritesScrollLeft").addEventListener("click", () => {
-    document.getElementById("favoritesGallery").scrollBy({
-      left: -300,
-      behavior: "smooth"
-    });
-  });
-  
-  document.getElementById("favoritesScrollRight").addEventListener("click", () => {
-    document.getElementById("favoritesGallery").scrollBy({
-      left: 300,
-      behavior: "smooth"
-    });
-  });
-});
 
 
 
