@@ -1668,533 +1668,1037 @@ const dramaData = [
     description:
       "Strangers Young-ho and So-hee confide in each other through the exchange of handwritten letters in the early 2000s.",
   },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+  {
+    id: 4,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZlkKlfAsgX-jGm6PkyoVj0Bql_fJGpOJk5NBkRJ6EFA8919PFjMnMECY9qxNbguOZKO0P",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2400/1642400-i-125162fd3311",
+    title: "Parking",
+    year: "2023",
+    rating: "U/A",
+    season: "Drama",
+    language: "5 languages",
+    description:
+      "An elderly man and a youngster who are tenants sharing two different floors of an individual house fight over a parking space.",
+  },
+  {
+    id:5,
+    image:
+      "https://images.tv9hindi.com/wp-content/uploads/2025/02/sanam-teri-kasam-actress.jpeg",
+    bannerImage:
+      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202502/sanam-teri-kasam-105959329-16x9.jpg?VersionId=mZ87KjGYGl9whL31s6YOgx41WYJQ5Tin&size=690:388",
+    title: "Sanam Teri Kasam",
+    year: "2016",
+    rating: "U",
+    season: "Drama/Romance",
+    language: "Hindi",
+    description:
+      "After being disowned by her family, an awkward librarian relies on the help of her brooding neighbour.",
+  },
+  {
+    id:6 ,
+    image:
+      "https://a.ltrbxd.com/resized/film-poster/8/5/2/5/3/1/852531-my-old-ass-0-230-0-345-crop.jpg?v=2b684502b7",
+    bannerImage:
+      "https://a.ltrbxd.com/resized/alternative-backdrop/8/5/2/5/3/1/tmdb/iPHsjvbFyGbeCEDC7u8Ib8U1zS6-1200-1200-675-675-crop-000000.jpg?v=123f16bd26",
+    title: "My Old Ass",
+    year: "2024",
+    rating: "U/A",
+    season: "Drama/Comedy",
+    language: "English",
+    description:
+      "A mushroom trip brings free-spirited Elliott face-to-face with her 39-year-old self. But when Elliott's `old ass`` delivers warnings to her younger self, Elliott realizes she has to rethink everything about her family, life and love.",
+  },
+  {
+    id: 7,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTBmd9-7zHfOW0U6TbvHYAdynG5HncFer4oPPdffCucLX92Pp35lBKKSiqWbLeUy5cg3Xm6",
+    bannerImage:
+      "https://data1.ibtimes.co.in/en/full/699446/varathan.jpg",
+    title: "Varathan",
+    year: "2018",
+    rating: "U/A",
+    season: "Drama/Thriller",
+    language: "2 languages",
+    description:
+      "After losing his job Abin along with his wife Priya, who has suffered a miscarriage, decide to shift from Dubai to Priya's family estate in Kerala. However, peace eludes the couple as they run into a set of new troubles.",
+  },
+  {
+    id:8,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNmJhMzNjMjctYWQ3YS00OWRkLWE4MTgtOGEwODdiNWNmMTk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/7743/1637743-i-386a7df5ac11",
+    title: "Falimy",
+    year: "2023",
+    rating: "U/A",
+    season: "Drama/Comedy",
+    language: "5 languages",
+    description:
+      "A family of self-centered individuals sets out on a journey to fulfill their grandfather's pilgrimage wish, partly to prevent his frequent escapes.",
+  },
+
+   {
+    id: 9,
+    image:
+      "https://image.tmdb.org/t/p/original/kZI4zpg2Tzqkwpnxitl0ZKxUn9L.jpg",
+    bannerImage:
+      "https://assets.aboutamazon.com/dims4/default/039e5e4/2147483647/strip/true/crop/6720x3780+0+0/resize/1320x743!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F9a%2F3c%2F2f914496403d98504533686c9a92%2Fimg-3498.JPG",
+    title: "Star",
+    year: "2024",
+    rating: "U",
+    season: "Drama",
+    language: "4 languages",
+    description:
+      "Follows a youngster Kalai and his aspirations of becoming a 'Star' in the Tamil Film Industry. Born in a lower-middle-class family, will Kalai overcome all his struggles to emerge as a Star?",
+  },
+     {
+    id: 10,
+    image:
+      "https://images.justwatch.com/poster/320026039/s718/vaazhai.jpg",
+    bannerImage:
+      "https://bingeddata.s3.amazonaws.com/uploads/2024/09/vaazhai-2.jpg",
+    title: "Vaazhai",
+    year: "2024",
+    rating: "U",
+    season: "Drama",
+    language: "7 languages",
+    description:
+      "A twelve-year-old boy, Sivanandhan, his mother, sister, and friend navigate life's challenges, where a plantain tree, Vaazhai, becomes a central presence.",
+  },
+     {
+    id:11 ,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/0dd223e5c41c64421b5665e5e7aa5491cd9965e4b61c24badc0f75cc6a4abbf9.png",
+    bannerImage:
+      "https://www.leisurebyte.com/wp-content/uploads/2024/09/killer-heat-review-1.jpg",
+    title: "Killer Heat",
+    year: "2024",
+    rating: "R",
+    season: "Drama/Mystery",
+    language: "2 languages",
+    description:
+      "Follows twin brothers who find themselves in a dangerous love triangle on an isolated Greek island. The investigation is given to `The Jealousy Man,` a wounded detective.",
+  },
+     {
+    id:12 ,
+    image:
+      "https://resizing.flixster.com/_8RQCZKbf1Cvn-gM3MBMKIrZKNk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2NhNGM5ZGZkLWViMjUtNDM5MS1iOGExLWEwN2MxNmQ3MTI2OS5qcGc=",
+    bannerImage:
+      "https://ychef.files.bbci.co.uk/1280x720/p0j01qj5.jpg",
+    title: "All We Imagine as Light",
+    year: "2024",
+    rating: "U/A",
+    season: "Drama",
+    language: "3 languages",
+    description:
+      "In Mumbai, Nurse Prabha's routine is troubled when she receives an unexpected gift from her estranged husband. Her younger roommate, Anu, tries in vain to find a spot in the city to be intimate with her boyfriend.",
+  },
+     {
+    id:13,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73fVt8D9niiAqztZCI3_7MRro_01QadOFYA&s",
+    bannerImage:
+      "https://media.vanityfair.com/photos/66b61eba371071e487f51a20/master/pass/it-ends-with-us-review.jpg",
+    title: "It Ends with Us",
+    year: "2024",
+    rating: "PG-13",
+    season: "Drama/Romance",
+    language: "English",
+    description:
+      "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+  },
+
+  {
+    id: 14,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNS7th8eTYZWYl08jXLFbFRlzeGWjmmbIcLsNwgNeC1zgWbTXZMGrx19hxiLte3MWfpeTc",
+    bannerImage:
+      "https://www.hindustantimes.com/ht-img/img/2023/07/23/550x309/A-still-from-Kartik-Aaryan--Kiara-Advani-s-Satyapr_1689315259801_1690077575368.jpg",
+    title: "Satyaprem Ki Katha",
+    year: "2023",
+    rating: "U/A",
+    season: "Drama/Comedy",
+    language: "Hindi",
+    description:
+      "Sattu is a good hearted but good for nothing LLB fail guy who dreams of marrying the IT girl of Ahmedabad Katha, a girl way out of his league.",
+  },
+
 ];
 const scifiData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 1,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/06cb0a5c7c5fb9eceaff211c896bd1ca227bd6f7431df080a312abbde945868c.jpg",
+    bannerImage:
+      "https://i.blogs.es/e7d433/ready-player-one/1366_2000.jpg",
+    title: "Ready Player One",
+    year: "2018",
+    rating: "U/A",
+    season: "Sci-Fi/Fantasy",
+    language: "4 languages",
+    description:
+      "When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world.",
+  },
+  {
+    id:2 ,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjQhpxQjo0PG6ooGy-u_YCiKJay4ZkzY4IZuivTFZFQARdw6IveSDTDgYkuRxJ30SV3X2c",
+    bannerImage:
+      "https://imageio.forbes.com/specials-images/imageserve/5ee168af194e4200062e8ed8/Nonso-Anozie--Lara-McDonnell--Josh-Gad-and-Ferdia-Shaw-in-Kenneth-Branagh-s--Artemis/0x0.jpg?format=jpg&crop=4096,2304,x0,y0,safe&width=960",
+    title: "Artemis Fowl",
+    year: "2020",
+    rating: "PG",
+    season: "Fantasy/Sci-Fi",
+    language: "4 languages",
+    description:
+      "Artemis Fowl, a young criminal prodigy, hunts down a secret society of fairies to find his missing father.",
+  },
+  {
+    id: 3,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBZdOqbE6L0oDF1_CobY9VLPqmXzeT9xgqJMC4BOgyve0vm8pEGxoFs2glHz0jB2BExlJtdQ",
+    bannerImage:
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/Pixar-Sequels-Wall-E-Cropped.jpg",
+    title: "WALL-E",
+    year: "2008",
+    rating: "G",
+    season: "Sci-Fi/Family",
+    language: "6 languages",
+    description:
+      "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
+  },
+  {
+    id:4,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BN2I1MGNiOWMtYmFlNC00MDYxLTkzODEtZDhiMTg5MjYzNTQxXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://occ-0-8407-92.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeUodG7M5lu32sS-TrYwoZcKUiwFwr8-ULwe1_IogxyQ7SfGSNmqtxNNrW-_UbODgmw9UJL8X4RA1OzAwLBYSK_Hig7wLxtTUC44.jpg?r=f4b",
+    title: "Love and Monsters",
+    year: "2020",
+    rating: "PG-13",
+    season: "Fantasy/Sci-Fi",
+    language: "3 languages",
+    description:
+      "Seven years after he survived the monster apocalypse, lovably hapless Joel leaves his cozy underground bunker behind on a quest to reunite with his high school sweetheart.",
+  },
+  {
+    id: 5,
+    image:
+      "https://images.justwatch.com/poster/310502709/s718/ayalaan.jpg",
+    bannerImage:
+      "https://media.assettype.com/TNIE%2Fimport%2F2024%2F1%2F6%2Foriginal%2FAyalaan_Sivakarthikeyan.jpg?w=480&auto=format%2Ccompress&fit=max",
+    title: "Ayalaan",
+    year: "2024",
+    rating: "U",
+    season: "Sci-Fi",
+    language: "4 languages",
+    description:
+      "A lost alien seeks help to go back to his home, but everything gets harder after the alien returns to its home.",
+  },
+  {
+    id: 6,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYHC29qEVmyQeWmF5CUMkzMUwYdbqtTExjXtdrEfJl3hMIPeVhJ-54Tt3OyhvuybD0U0v-DA",
+    bannerImage:
+      "https://static.rayvision.com/media/Bollywood_Robot_2_0_Resurgence_jpg_c9ef67b8ec.jpeg",
+    title: "2.0",
+    year: "2018",
+    rating: "U/A",
+    season: "Sci-Fi",
+    language: "4 languages",
+    description:
+      "After mobiles start mysteriously flying out of the hands of people in Chennai, Dr Vaseegaran summons his trusted robot Chitti to ward off the bird-shaped supernatural powers of Pakshirajan.",
+  },
+  {
+    id: 7,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZIIZuuqIoUBMfkJGrb7Zt89BaqAZ8CJoDjbZPI_bgaqYDYwv_X-qkpFUkgoPpV8_c3mgrvg",
+    bannerImage:
+      "https://www.fridaywall.com/wp-content/uploads/2024/05/BUDDY-LV01-Thumbnail_Empty-2-scaled.jpg",
+    title: "Buddy",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci-Fi",
+    language: "4 languages",
+    description:
+      "A teddy bear named Buddy is in trouble and asks pilot Aditya Ram for help. Can the duo join forces and help each other out?",
+  },
+  {
+    id: 8,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmcw39iGktTuIoTFx5Hzvw7Svw7Vw-s-NqkMTP5fQWv-4I0WfrQ-QYQUsSRUgwuoSobkRlw",
+    bannerImage:
+      "https://images.mubicdn.net/images/film/319853/cache-719254-1633269674/image-w1280.jpg?size=800x",
+    title: "Churuli",
+    year: "2021",
+    rating: "U/A",
+    season: "Sci-Fi/Fantasy",
+    language: "Malayalam",
+    description:
+      "Two undercover cops who go in search of a fugitive enter another dimension occupied by uncivilized residents who are crass and rude. There, the two men get stuck in an apparent time loop as inexplicable events begin to occur.",
+  },
+
+     {
+    id: 9,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BOWY0ZGJiNWYtNTUwMC00YjE4LTg2ODYtMDVjYTEyNTNjMjRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://filmysasi.com/wp-content/uploads/2021/12/Minnal-Murali.jpeg",
+    title: "Minnal Murali",
+    year: "2021",
+    rating: "TV-14",
+    season: "Sci-Fi/Fantasy",
+    language: "2 languages",
+    description:
+      "A tailor gains special powers after being struck by lightning, but must take down an unexpected foe if he is to become the superhero his hometown needs.",
+  },
+
+     {
+    id:10 ,
+    image:
+      "https://www.rogerebert.com/wp-content/uploads/2024/09/yZWHpr5HlKTDlPf46UH8RSlEOu9-jpg.webp",
+    bannerImage:
+      "https://www.geekgirlauthority.com/wp-content/uploads/2024/09/mega-03-06-10-02-00268082.jpg",
+    title: "Megalopolis",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci-Fi",
+    language: "4 languages",
+    description:
+      "The city of New Rome faces the duel between Cesar Catilina, a brilliant artist in favor of a Utopian future, and the greedy mayor Franklyn Cicero.",
+  },
+     {
+    id: 11,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BY2NiNDM0NWYtNzQxNi00NmY1LTg1YmYtMDE5ZmQzMGJlMGQzXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/11/morena-baccarin-and-anthony-mackie-looking-at-a-map-in-elevation.jpg",
+    title: "Elevation",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci-Fi/Fantasy",
+    language: "4 languages",
+    description:
+      "A single father and two women venture from the safety of their homes to face monstrous creatures to save the life of a young boy.",
+  },
+     {
+    id:12 ,
+    image:
+      "https://dx35vtwkllhj9.cloudfront.net/paramountpictures/transformers-one/images/regions/au/updates/onesheet.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/b861ab69424654c266299b50f3a1cd66fc73977e0882777632c58bae9714b06c._SX1080_FMjpg_.jpg",
+    title: "Transformers One",
+    year: "2024",
+    rating: "PG",
+    season: "Sci-Fi",
+    language: "2 languages",
+    description:
+      "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but who once were friends bonded like brothers who changed the fate of Cybertron forever.",
+  },
+     {
+    id: 13,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMmIxODljNDEtNTRhYS00NDQ2LTg1MTktYWVhNmU4YmY0YTdlXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://variety.com/wp-content/uploads/2025/03/01_THE-LIFE-OF-CHUCK_Courtesy-of-NEON-2.jpg?crop=0px%2C176px%2C1800px%2C1012px&resize=1000%2C563",
+    title: "The Life of Chuck",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci-fi/Fantasy",
+    language: "2 languages",
+    description:
+      "A life-affirming, genre-bending story based on Stephen King's novella about three chapters in the life of an ordinary man named Charles Krantz.",
+  },
+      {
+    id:14 ,
+    image:
+      "./image/ultraman.jpg",
+    bannerImage:
+      "https://gizmodo.com/app/uploads/2024/05/6e581ac5243330aa28f8e3129015e0d6.jpg",
+    title: "Ultraman: Rising",
+    year: "2024",
+    rating: "U/A",
+    season: "Sci--Fi/Action",
+    language: "3 languages",
+    description:
+      "A superstar baseball player who returns to Japan to become the latest hero to carry the mantle of Ultraman.",
+  },
 ];
 const horrorData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 1,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BOGM5N2FkNGMtNmYzMS00MGRiLWI5ZDItOTRmNThiYWNlNDZhXkEyXkFqcGc@._V1_QL75_UX190_CR0,8,190,281_.jpg",
+    bannerImage:
+      "https://images.indianexpress.com/2024/10/Black-Movie-Review.jpg",
+    title: "Black",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror/Thriller",
+    language: "4 languages",
+    description:
+      "A young couple move into a serene row house, eager for peace and privacy. A violent storm and unsettling forces unravel their marriage. Vasanth must uncover the truth behind these supernatural occurrences before everything falls apart.",
+  },
+  {
+    id: 2,
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23021868_p_v8_aa.jpg",
+    bannerImage:
+      "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/09/30104835/Untitled-design-38-1600x900.jpg",
+    title: "Naane Varuvean",
+    year: "2022",
+    rating: "U/A",
+    season: "Horror/Thriller",
+    language: "4 languages",
+    description:
+      "Prabhu an average suburban man for whom his family is everything. His life is turned upside down when his daughter Satya is possessed by the ghost of a little boy.",
+  },
+  {
+    id: 3,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQHyfMVjRYyEyPRFm2GxkHfrhWh3lziZqaEbxEFiHYWU-OgkJlKhl4vI29J5aGH6AbLS066",
+    bannerImage:
+      "https://sc0.blr1.cdn.digitaloceanspaces.com/article/143084-fowtjclyyd-1592508290.jpg",
+    title: "Penguin",
+    year: "2020",
+    rating: "U/A",
+    season: "Thriller",
+    language: "4 languages",
+    description:
+      "It is a spine chilling tale of a pregnant mother who sets out on a dangerous mission to unravel the mystery and save her loved ones.",
+  },
+  {
+    id:4 ,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrcWfbFERV30vGQzkfSaN53EbAOXi-xKBy07UaIfGDPqPKE6D6XdskHmtTmNfhLCQPbgM-",
+    bannerImage:
+      "https://www.koimoi.com/wp-content/new-galleries/2024/08/demonte-colony-2-box-office-collection-day-1-arulnithis-film-beats-rajinikanths-lal-salaam-record-in-tamil-nadu-grosses-over-5-crore-globally.jpg",
+    title: "Demonte Colony 2",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror/Thriller",
+    language: "4 languages",
+    description:
+      "A group of friends who return to a cursed location, driven by curiosity and the quest to uncover the truth behind the malevolent spirits that reside there.",
+  },
+  {
+    id:5 ,
+    image:
+      "https://resizing.flixster.com/t2qh6gfav_Sp6ZeubGxeT2yYC4I=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27342077_v_v9_ab.jpg",
+    bannerImage:
+      "https://img.texasmonthly.com/2024/10/caddo-lake-film-review.jpg?auto=compress&crop=faces&fit=fit&fm=jpg&h=0&ixlib=php-3.3.1&q=45&w=1250",
+    title: "Caddo Lake",
+    year: "2024",
+    rating: "PG-13",
+    season: "Horror",
+    language: "languages",
+    description:
+      "When an 8-year-old girl disappears on Caddo Lake, a series of past deaths and disappearances begin to link together, altering a broken family's history.",
+  },
+  {
+    id: 6,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGr1NJ4xaVo64gFOKDnj07enVfPgLsrrMr7qE_EhUXPaT-c_rp-tBvdKDcxgMr4yU2qselSA",
+    bannerImage:
+      "https://static.toiimg.com/thumb/msid-106214712,width-1280,height-720,resizemode-4/106214712.jpg",
+    title: "Phoenix",
+    year: "2023",
+    rating: "U/A",
+    season: "Horror/Thriller",
+    language: "Malayalam",
+    description:
+      "John and his family relocate to a far away island village with hopes of rebuilding their lives. But destiny has other plans for them as a series of horrifying events begin to unfold.",
+  },
+  {
+    id:7 ,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/34a003a275202b853b1e14406b4ba6e61d4f7dc14bd4b0c9d9aabba2f36c94ef.jpg",
+    bannerImage:
+      "https://images.indianexpress.com/2023/04/Neelavelicham-review-1200.jpg",
+    title: "Neelavelicham",
+    year: "2023",
+    rating: "U",
+    season: "Horror/Thriller",
+    language: "Malayalam",
+    description:
+      "A young, enthusiastic and free-spirited writer arrives to stay in a desolate mansion, rumored to be haunted by the apparition of a young woman who committed suicide when she was betrayed in love.",
+  },
+  {
+    id: 8,
+    image:
+      "https://image.tmdb.org/t/p/original/5pj1OTtOtBkh2seqg3K9Hjtaapg.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/c586fc35256fe02f1e4fd9bfbfd3652172dbe0aa1dc110ea079691a068ef19bd.jpg",
+    title: "Sattam En Kaiyil",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror/Thriller",
+    language: "4 languages",
+    description:
+      "An accident leads Gowtham to conceal a body in his car. Arrested for drunk driving, his impounded vehicle at the police station holds the hidden corpse. Complications ensue, compelling him to find an escape from the perilous circumstances.",
+  },
+   {
+    id: 9,
+    image:
+      "https://preview.redd.it/i-finally-saw-the-new-haunted-mansion-movie-last-night-and-v0-w524ukst2zvb1.jpg?width=900&format=pjpg&auto=webp&s=9e1457babb55f9c51469be0ec7fb6c4247ecd5ff",
+    bannerImage:
+      "https://m.media-amazon.com/images/M/MV5BNzA4OWZlNmQtNDIwZi00MGM3LTliYjItYjA3MjVhMjUyOTQ5XkEyXkFqcGdeQWFkcmllY2xh._V1_.jpg",
+    title: "Haunted Mansion",
+    year: "2023",
+    rating: "PG-13",
+    season: "Horror",
+    language: "2 languages",
+    description:
+      "A single mom named Gabbie hires a tour guide, a psychic, a priest and a historian to help exorcise her newly bought mansion after discovering it is inhabited by ghosts.",
+  },
+   {
+    id:10 ,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShjTcbkXhwkPAX0EDC2D687kHkkNk6HDyKuRrsuEA1RAriL56GGtIyeOMJCWNPSFUEoh5fBQ",
+    bannerImage:
+      "https://m.media-amazon.com/images/M/MV5BNDRkYjgyOTMtZjgyMy00ZGRmLWJhZTktZGU0NTVlNzQ4YmEyXkEyXkFqcGdeQXNuZXNodQ@@._V1_.jpg",
+    title: "Hotel Transylvania: Transformania",
+    year: "2022",
+    rating: "PG",
+    season: "Horror",
+    language: "4 languages",
+    description:
+      "After one experiment, Johnny turns into a monster and everyone else becomes human. Now it has to be seen whether they will be able to reverse this experiment.",
+  },
+   {
+    id:11 ,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4h7CIIPqhj8k05-rKmhVWRmptSynrb_TDdA&s",
+    bannerImage:
+      "https://helios-i.mashable.com/imagery/articles/06mH6E0Mj7dPxIGlfMjGR2l/hero-image.fill.size_1248x702.v1727125882.jpg",
+    title: "Apartment 7A",
+    year: "2024",
+    rating: "R",
+    season: "Horror",
+    language: "2 languages",
+    description:
+      "A struggling young dancer finds herself drawn in by dark forces when a peculiar, well-connected older couple promise her a shot at fame.",
+  },
+   {
+    id: 12,
+    image:
+      "https://waxworkrecords.com/cdn/shop/files/GBFE_FrontCover_1800x1800.jpg?v=1722026455",
+    bannerImage:
+      "https://talkingfilms.net/wp-content/uploads/2024/03/ghost1.jpg",
+    title: "Ghostbusters: Frozen Empire",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror",
+    language: "2 languages",
+    description:
+      "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second ice age.",
+  },
+   {
+    id: 13,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpNyINQ9C2tvY5wMRGHWXOGBpjpi5_RfAKLSrxG9M1o---2ClNvtij3jnG5iuefp6f4qlcew",
+    bannerImage:
+      "https://variety.com/wp-content/uploads/2024/02/IMAGINARY_Unit_230531_00362RC2.jpg?w=1000&h=563&crop=1",
+    title: "Imaginary",
+    year: "2024",
+    rating: "PG-13",
+    season: "Horror/Thriller",
+    language: "2 languages",
+    description:
+      "A woman returns to her childhood home to discover that the imaginary friend she left behind is very real and unhappy that she abandoned him.",
+  },
+   {
+    id:14 ,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSAxvVNCfAD3CvfrsWQqQ-s11o1MkY0-BEUufleoMJ5fu5ILHGZhrxbML-s020Gk9y8NrDKtQ",
+    bannerImage:
+      "https://images.moviebuff.com/422852bf-aa47-48de-b563-c9ef5d006493?w=1000",
+    title: "Pechi",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror",
+    language: "2 languages",
+    description:
+      "Revolves around age-old practices such as black magic and witchcraft.",
+  },
+
 ];
+
 const animeData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 1,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNjY4MDQxZTItM2JjMi00NjM5LTk0MWYtOTBlNTY2YjBiNmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2022/12/341369.jpg",
+    title: "Attack on Titan",
+    year: "2021-2023",
+    rating: "TV-MA",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "After his hometown is destroyed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+  },
+  {
+    id: 2,
+    image:
+      "https://static0.colliderimages.com/wordpress/wp-content/uploads/sharedimages/2025/01/0388694_poster_w780.jpg",
+    bannerImage:
+      "https://animotaku.fr/wp-content/uploads/2024/10/anime-one-piece-pause-avril-2025.jpg",
+    title: "One Piece",
+    year: "1999-2025",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Monkey D. Luffy sets off on an adventure with his pirate crew in hopes of finding the greatest treasure ever, known as the `One Piece.`",
+  },
+  {
+    id: 3,
+    image:
+      "https://es.web.img3.acsta.net/pictures/19/09/18/13/46/0198270.jpg",
+    bannerImage:
+      "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GY5P48XEY-backdrop_wide",
+    title: "Demon Slayer: Kimetsu no Yaiba",
+    year: "2019-2024",
+    rating: "TV-MA",
+    season: " Anime",
+    language: "2 languages",
+    description:
+      "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+  },
+  {
+    id:4 ,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNTY1M2NjMTItOGFhNi00NDU3LWExNzQtZGY2YWJlYzExNmU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GRGG9798R-backdrop_wide",
+    title: "Re: Zero - Starting Life in Another World",
+    year: "2016",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself.",
+  },
+  {
+    id: 5,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BZTI4ZGMxN2UtODlkYS00MTBjLWE1YzctYzc3NDViMGI0ZmJmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/10/frieren-beyond-journeys-end.jpg",
+    title: "Frieren: Beyond Journey's End",
+    year: "2023",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Elf mage Frieren and her fellow adventurers have defeated the Demon King and brought peace to the land. But Frieren will long outlive the rest of her former party. How will she come to understand what life means to the people around her?",
+  },
+  {
+    id: 6,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNzgxMzI3NzgtYzE2Zi00MzlmLThlNWEtNWVmZWEyZjNkZWYyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/07/my-hero-academia-group-happy.jpg",
+    title: "My Hero Academia",
+    year: "2016",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "A superhero-admiring boy enrolls in a prestigious hero academy and learns what it really means to be a hero, after the strongest superhero grants him his own powers.",
+  },
+  {
+    id:7 ,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://images.squarespace-cdn.com/content/v1/5ace4845e17ba35c9d8eb95e/ae0a750d-101e-4bdf-8a85-da70ac123aea/thorfinn+and+einar.PNG",
+    title: "Vinland Saga",
+    year: "2019-2023",
+    rating: "TV-MA",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Following a tragedy, Thorfinn embarks on a journey with the man responsible for it to take his life in a duel as a true and honorable warrior to pay homage.",
+  },
+  {
+    id: 8,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/37ae6eaf1e35049384801438c20a4dec3aa06593542c9770c83935d6b84a3e59._SX1080_FMjpg_.jpg",
+    title: "Naruto",
+    year: "2002-2007",
+    rating: "TV-PG",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+  },
+
+   {
+    id: 9,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GY3VKX1MR-backdrop_wide",
+    title: "Hunter x Hunter",
+    year: "2011-2014",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
+  },
+
+   {
+    id: 10,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYWFhOWMxNTYtZThiMi00ZmQ5LTlmODktN2QwNzUyZjMyZGQzXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://sm.ign.com/ign_in/photo/default/dandadan-1729117859807_2dhd.jpg",
+    title: "Dandadan",
+    year: "2024",
+    rating: "TV-MA",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "When Momo and Okarun's beliefs clash, they're thrown into a world of ghosts, aliens and awakened powers.",
+  },
+   {
+    id: 11,
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png",
+    bannerImage:
+      "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/bleach-every-main-character-s-age-height-and-birthday.jpg",
+    title: "Bleach",
+    year: "2004-2023",
+    rating: "TV-MA",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from `Hollows`.",
+  },
+   {
+    id:12 ,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://cinema-safari.com/wp-content/uploads/2024/01/death-note.jpg",
+    title: "Death Note",
+    year: "2006-2007",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+  },
+   {
+    id: 13,
+    image:
+      "https://resizing.flixster.com/D5mLRg__QUp4UEhtOwifL9pcTYU=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9065121_b_v8_aa.jpg",
+    bannerImage:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/Fullmetal-Alchemist.jpg",
+    title: "Fullmetal Alchemist: Brotherhood",
+    year: "2009-2010",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
+  },
+   {
+    id: 14,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNmFiM2FkYTYtY2FiOS00ZWJkLTkyOTgtNmFmODI4NjcwNDgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://deadline.com/wp-content/uploads/2024/07/Dragon-Ball-Series_c42772.jpg",
+    title: "Dragon Ball Z",
+    year: "1996–2003",
+    rating: "TV-PG",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.",
+  },
+   {
+    id: 15,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMThjNzdiMzUtZjA4OC00YzBlLWFhOWQtODVjODhjMjY3MTkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://preview.redd.it/favorite-monster-character-v0-0zshowsyxtra1.jpg?width=1080&crop=smart&auto=webp&s=5b4bad433a951b00ae0d462c6db785dc9d54e767",
+    title: "Monster",
+    year: "2004-2005",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Tenma, a brilliant neurosurgeon with a promising future, risks his career to save the life of a critically wounded young boy. The boy, now a charismatic young man, reappears 9 years later in the midst of a string of unusual serial murders.",
+  },
+   {
+    id: 16,
+    image:
+      "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20081301_b_v8_aa.jpg",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3575/1613575-i-963953ac511b",
+    title: "Tokyo Revengers",
+    year: "2021",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Hanagaki Takemichi lives an unsatisfying life right up until his death. Waking up 12 years in the past, he reckons with the eventual fate of his friends and tries to prevent an unfortunate future.",
+  },
+   {
+    id: 17,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYjYxMWFlYTAtYTk0YS00NTMxLWJjNTQtM2E0NjdhYTRhNzE4XkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    bannerImage:
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/haikyuu.jpg",
+    title: "Haikyu!!",
+    year: "2014–2020",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "Determined to be like the volleyball championship's star player nicknamed `the small giant`, Shoyo joins his school's volleyball club.",
+  },
+
+   {
+    id: 18,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNzMwOGQ5MWItNzE3My00ZDYyLTk4NzAtZWIyYWI0NTZhYzY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/07/one-punch-man.jpg",
+    title: "One Punch Man",
+    year: "2015",
+    rating: "TV-14",
+    season: "Anime",
+    language: "2 languages",
+    description:
+      "The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.",
+  },
+
 ];
+
 const familyData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+   
+  {
+    id: 1,
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/image_2ff75a5c.jpeg?region=0%2C0%2C540%2C810",
+    bannerImage:
+      "https://ew.com/thmb/XDJ9UzANqSzYyGm_jjQgJ7RGH04=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/LUCA-ONLINE-USE-v228_81_cs.pub16.280-4d81ad8f263d429dbf5bdf7fd13f02a9.jpg",
+    title: "Luca",
+    year: "2021",
+    rating: "PG",
+    season: "Family/Fantasy",
+    language: "5 languages",
+    description:
+      "On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.",
+  },
+  {
+    id: 2,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BMzM0MmUyNDgtZmYwNi00ZGI2LWJhNjYtMDQzMzhjOTcyNjdhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/b41b2cc6959b35b7fa26a3ebe3c1f3842b7b6bfeb6625381f5a1a7eef43c166e._SX1080_FMjpg_.jpg",
+    title: "Harold and the Purple Crayon",
+    year: "2024",
+    rating: "PG",
+    season: "Family/Comedy",
+    language: "5 languages",
+    description:
+      "Inside of his book, adventurous Harold can make anything come to life simply by drawing it. After he grows up and draws himself off the book's pages and into the physical world, Harold finds he has a lot to learn about real life.",
+  },
+  {
+    id: 3,
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/p_onward_19732_09862641.jpeg",
+    bannerImage:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/03/Onward-Elves.jpg",
+    title: "Onward",
+    year: "2020",
+    rating: "U",
+    season: "Family/Fantasy",
+    language: "2 languages",
+    description:
+      "Teenage elf brothers Ian and Barley embark on a magical quest to spend one more day with their late father. Like any good adventure, their journey is filled with cryptic maps, impossible obstacles and unimaginable discoveries.",
+  },
+  {
+    id: 4,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/fb3a25074611308e7044fffce00d6141c2dd4ef3e9caadb96c5e57d5865b5f06.jpg",
+    bannerImage:
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1200x630_center,f_auto,q_auto:best/rockcms/2023-12/willy-wonka-mc-231211-03-2b6c32.jpg",
+    title: "Wonka",
+    year: "2023",
+    rating: "PG",
+    season: "Family/Fantasy",
+    language: "2 languages",
+    description:
+      "A young and poor Willy Wonka discovers that the industry is run by a cartel of greedy chocolatiers.",
+  },
+  {
+    id: 5,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/9552935dbc42f282810b432318ec0dad3717f4c743caf56e92ac10040a67f675.jpg",
+    bannerImage:
+      "https://www.indiewire.com/wp-content/uploads/2024/05/MV5BZmRiMmI4ZjEtYjdkNi00ZDY3LTk4OTEtOGQ0ZDhmZWY3ZGFlXkEyXkFqcGdeQXVyNjI4MjU4MTY@._V1_.jpg",
+    title: "The Garfield Movie",
+    year: "2024",
+    rating: "PG",
+    season: "Family/Comedy",
+    language: "5 languages",
+    description:
+      "After Garfield's unexpected reunion with his long-lost father, ragged alley cat Vic, he and his canine friend Odie are forced from their perfectly pampered lives to join Vic on a risky heist.",
+  },
+  {
+    id:6 ,
+    image:
+      "https://m.media-amazon.com/images/I/91oCE+ZchRL._AC_UF1000,1000_QL80_.jpg",
+    bannerImage:
+      "https://images.bauerhosting.com/legacy/empire-tmdb/films/920/images/a1MlbLBk5Sy6YvMbSuKfwGlDVlb.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=undefined&q=80",
+    title: "Cars",
+    year: "2006",
+    rating: "U",
+    season: "Family/Comedy",
+    language: "9 languages",
+    description:
+      "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
+  },
+  {
+    id: 7,
+    image:
+      "https://images.moviesanywhere.com/c07276e9473360730fdbc94baebc4236/4692c964-61ba-486d-9c77-939dbfba2f07.jpg?h=375&resize=fit&w=250",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/8698/1418698-i-ea1d9b523dc4",
+    title: "The Lion King",
+    year: "2019",
+    rating: "PG",
+    season: "Family/Drama",
+    language: "5 languages",
+    description:
+      "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+  },
+     {
+    id: 8,
+    image:
+      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzAtcocqsw5DGjEI2iyQ_ZYK5NBlGoRHVusvIHv2aVNpXwBUIdde-3CEqJkxp2EItplVl1ow",
+    bannerImage:
+      "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3619/1373619-i-f18bf644c9cc",
+    title: "Big Hero 6",
+    year: "2014",
+    rating: "PG",
+    season: "Family/Action",
+    language: "5 languages",
+    description:
+      "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
+  },
+     {
+    id: 9,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNWJlZDhkM2UtNTdmNi00OWM4LWE1NTItMDMzZmFjODU0ZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/228f933d26721b6b736c0358413f113dd56686535d80f8313f687b4b2e46a837.jpg",
+    title: "Four Kids and It",
+    year: "2020",
+    rating: "PG",
+    season: "Fantasy/Family",
+    language: "5 languages",
+    description:
+      "A group of kids on holiday in Cornwall meets a magical creature on the beach that has the power to grant wishes.",
+  },
+     {
+    id: 10,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/cdcb6283a6ab184f5fb6434e93c769ec82551fd3a338f362967b9f3bfd9bb5cc.jpg",
+    bannerImage:
+      "https://www.indiewire.com/wp-content/uploads/2019/08/PIEAPY5ZBBACTHZ5B2R4OJQHHE.jpg",
+    title: "Dora and the Lost City of Gold",
+    year: "2019",
+    rating: "U",
+    season: "Family/Adventure",
+    language: "4 languages",
+    description:
+      "Teenage explorer Dora leads her friends on an adventure to save her parents and solve the mystery behind a lost city of gold.",
+  },
+     {
+    id: 11,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXZtC1uj2aV1JL8Elv9K4Z4xFUtmbwaO2EoQ&s",
+    bannerImage:
+      "https://static01.nyt.com/images/2007/06/28/arts/29rat600.1.jpg",
+    title: "Ratatouille",
+    year: "2007",
+    rating: "U/A",
+    season: "Family/Comedy",
+    language: "5 languages",
+    description:
+      "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.",
+  },
+     {
+    id: 12,
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/p_disney_lightyear_519_c4636841.jpeg",
+    bannerImage:
+      "https://phantom-marca.unidadeditorial.es/6cef070866d3138243c0e441a1ab4d4e/resize/828/f/jpg/assets/multimedia/imagenes/2022/06/09/16547847976767.jpg",
+    title: "Lightyear",
+    year: "2022",
+    rating: "U",
+    season: "Family/Sci-fi",
+    language: "4 languages",
+    description:
+      "Marooned Space Ranger Buzz Lightyear encounters an army of ruthless robots commanded by Zurg who are attempting to steal the fuel source of his ship.",
+   },
+     {
+    id: 13,
+    image:
+      "https://images-cdn.ubuy.co.in/636455c97732475ab778de46-turning-red-dvd.jpg",
+    bannerImage:
+      "https://sc0.blr1.cdn.digitaloceanspaces.com/article/171185-gicmfnxccv-1646664253.jpg",
+    title: "Turning Red",
+    year: "2022",
+    rating: "PG",
+    season: "Family/Comedy",
+    language: "4 languages",
+    description:
+      "A thirteen-year-old girl named Mei Lee is torn between staying her mother's dutiful daughter and the changes of adolescence. And as if the challenges were not enough, whenever she gets overly excited Mei transforms into a giant red panda.",
+  },
+     {
+    id: 14,
+    image:
+      "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmnAtpOgBAFdq3FCB60mobxfa92XAivCt6wA46wrl_ygV3nQ_BU_OHAfX4p_fBccMWoInMmQ",
+    bannerImage:
+      "https://m.media-amazon.com/images/M/MV5BZWZmMGZjYzctMjczMC00MGQ4LTkyODMtZWJkZDBjNTM4YmIwXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    title: "Wish",
+    year: "2023",
+    rating: "U/A",
+    season: "Family/Fantasy",
+    language: "4 languages",
+    description:
+      "A young girl wishes on a star and gets a more direct answer than she bargained for when a trouble-making star comes down from the sky to join her.",
+   },
+     {
+    id:15,
+    image:
+      "https://fastfilmreviews.com/wp-content/uploads/2019/10/abominable_ver4-1.jpg",
+    bannerImage:
+      "https://ew.com/thmb/EklGk7R40u9Kn1nCLJ3wwSTICYU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/15c35_sq2701_s130_f216_2k_finalr-2000-66a68ffd45914a54a7fb100fa04eeb6a.jpg",
+    title: "Abominable",
+    year: "2019",
+    rating: "U",
+    season: "Family/Adventure",
+    language: "5 languages",
+    description:
+      "Three teenagers must help a Yeti return to his family while avoiding a wealthy man and a zoologist who want him for their own needs.",
+  },
 ];
+
 const intlData = [
     // {
   //   id: ,
