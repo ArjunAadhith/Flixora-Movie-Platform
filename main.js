@@ -2700,118 +2700,230 @@ const familyData = [
 ];
 
 const intlData = [
-    // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
-  // {
-  //   id: ,
-  //   image:
-  //     "",
-  //   bannerImage:
-  //     "",
-  //   title: "",
-  //   year: "",
-  //   rating: "U/A",
-  //   season: " ",
-  //   language: "languages",
-  //   description:
-  //     "",
-  // },
+    {
+    id: 1,
+    image:
+      "https://bestmoviesbyfarr.com/wp-content/uploads/2024/05/perfectdays-640x960.jpg",
+    bannerImage:
+      "https://festivalkontoret.s3.eu-central-1.amazonaws.com/filmbilder_opx/2021/_articleFullWidth/Perfect-Days.jpg",
+    title: "Perfect Days",
+    year: "2023",
+    rating: "PG",
+    season: "Drama/Narrative",
+    language: "5 languages",
+    description:
+      "Hirayama cleans public toilets in Tokyo, lives his life in simplicity and daily tranquility. Some encounters also lead him to reflect on himself.",
+  },
+  {
+    id: 2,
+    image:
+      "https://image.tmdb.org/t/p/original/sjKCQ0kA2oliN2lDkmu1etLBxpw.jpg",
+    bannerImage:
+      "https://nextbestpicture-com.b-cdn.net/wp-content/uploads/2022/10/Decision-To-Leave-Oscar-Chances.jpg",
+    title: "Decision to Leave",
+    year: "2022",
+    rating: "U/A",
+    season: "Romance/Mystery",
+    language: "4 languages",
+    description:
+      "A detective investigating a man's death in the mountains meets the dead man's mysterious wife in the course of his dogged sleuthing.",
+  },
+  {
+    id: 3,
+    image:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCKKMkRGKasxtnoZJjCLczKa-S4YbNxzifRz4_dxpABm-0b94a-2NsYPoZktkQyUzgXSv49g",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2022/05/AS-BESTAS-Cannes-Film-Festival-H-2022.jpg?w=1296&h=730&crop=1",
+    title: "The Beasts",
+    year: "2022",
+    rating: "U/A",
+    season: "Thriller/Thriller",
+    language: "5 languages",
+    description:
+      "An expatriate French couple operate an organic farm in the Spanish countryside but clash with villagers.",
+  },
+  {
+    id: 4,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/f0c2cbec14a4992acc71a86b3c8e281913fd8665728910b9d882cd339c128fc5.jpg",
+    bannerImage:
+      "https://i.ytimg.com/vi/MyQUOeS4Vlg/maxresdefault.jpg",
+    title: "Io Capitano",
+    year: "2023",
+    rating: "U/A",
+    season: "Adventure/Drama",
+    language: "4 languages",
+    description:
+      "A Homeric fairy tale that tells the adventurous journey of two young boys, Seydou and Moussa, who leave Dakar to reach Europe.",
+  },
+  {
+    id: 5,
+    image:
+      "https://play-lh.googleusercontent.com/ytPRrO1Ol_9oVkqSON-i-e-N2gvLrBNfaDFBdAep08h0fusZeGrn7WndzwwqtaNvOfhWXsRJqNQ9AeBtTWI=w240-h480-rw",
+    bannerImage:
+      "https://cinephilecorner.com/wp-content/uploads/2024/12/the-teachers-lounge.webp",
+    title: "The Teachers’ Lounge",
+    year: "2023",
+    rating: "PG-13",
+    season: "Drama/Narrative",
+    language: "5 languages",
+    description:
+      "When one of her students is suspected of theft, teacher Carla Nowak decides to get to the bottom of the matter. Caught between her ideals and the school system, the consequences of her actions threaten to break her.",
+  },
+  {
+    id: 6,
+    image:
+      "https://resizing.flixster.com/nF_GRWI-IRaOoWHn6qLC0g2j_so=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23010362_p_v13_ad.jpg",
+    bannerImage:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWNFZe8xoL7gF2wYfT9trezbQJEQN8NI2gQ&s",
+    title: "No Bears",
+    year: "2022",
+    rating: "U/A",
+    season: "Romance/Thriller",
+    language: "2 languages",
+    description:
+      "Two parallel love stories in which the partners are thwarted by hidden, inevitable obstacles, the force of superstition, and the mechanics of power.",
+  },
+  {
+    id: 7,
+    image:
+      "https://intheseats.ca/wp-content/uploads/2024/06/GreenBorder_KL_poster_675x1000.jpg",
+    bannerImage:
+      "https://www.rogerebert.com/wp-content/uploads/2024/07/Green-Border-2.jpg",
+    title: "Green Border",
+    year: "2023",
+    rating: "U/A",
+    season: "Drama/Fiction",
+    language: "5 languages",
+    description:
+      "Follows a family of Syrian refugees, an English teacher from Afghanistan and a border guard.",
+  },
+  {
+    id: 8,
+    image:
+      "https://resizing.flixster.com/Kmd1CEyf0sX_CEkJaxNBzefVeGs=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26805607_v_v9_ab.jpg",
+    bannerImage:
+      "https://i.guim.co.uk/img/media/c664023aed63b4823acbe5910d48ac53f39ab680/0_33_1695_1017/master/1695.jpg?width=465&dpr=1&s=none&crop=none",
+    title: "Dahomey",
+    year: "2024",
+    rating: "U/A",
+    season: "Documentary",
+    language: "4 languages",
+    description:
+      "The journey of 26 plundered royal treasures from the Kingdom of Dahomey exhibited in Paris, now being returned to Benin.",
+  },
+   {
+    id: 9,
+    image:
+      "https://spoilerfreereviews.com/wp-content/uploads/2025/02/dRyQwww6M7DWbBZ8viPfaOQfvMn.jpg",
+    bannerImage:
+      "https://static01.nyt.com/images/2025/02/12/multimedia/brutalist-anatomy1-fbmc/brutalist-anatomy1-fbmc-videoSixteenByNine3000.jpg",
+    title: "The Brutalist",
+    year: "2024",
+    rating: "R",
+    season: "Drama/History",
+    language: "4 languages",
+    description:
+      "When a visionary architect and his wife flee post-war Europe in 1947 to rebuild their legacy and witness the birth of modern United States, their lives are changed forever by a mysterious, wealthy client.",
+  },
+   {
+    id: 10,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/987909fb35beba90d0751b1d0e73ecca36c916ccc5b6c62868706658ea903851.jpg",
+    bannerImage:
+      "https://www.lavocedivenezia.it/wp-content/uploads/The-Substance-il-film_11zon.webp",
+    title: "The Substance",
+    year: "2024",
+    rating: "R",
+    season: "Horror/Sci-fi",
+    language: "4 languages",
+    description:
+      "A fading celebrity takes a black-market drug: a cell-replicating substance that temporarily creates a younger, better version of herself.",
+  },
+   {
+    id: 11,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnHEnl13Ru0RI7F8VFU47XECa2FmpX4jcy1g&s",
+    bannerImage:
+      "https://www.venuecymru.co.uk/sites/default/files/styles/vc_banner_image/public/images/a%20complete%20unknown%20vc%20web%20.png?itok=FJaxkbTP",
+    title: "A Complete Unknown",
+    year: "2024",
+    rating: "A",
+    season: "Music/Drama",
+    language: "4 languages",
+    description:
+      "Set in the influential New York City music scene of the early 1960s, A Complete Unknown follows 19-year-old Minnesota musician Bob Dylan's meteoric rise.",
+  },
+   {
+    id:12 ,
+    image:
+      "https://m.media-amazon.com/images/S/pv-target-images/3ed14e402f42fee03dcbe838b8997b78a66ace6067842566c6ff6d5c53c0f830.jpg",
+    bannerImage:
+      "https://news.northeastern.edu/wp-content/uploads/2024/12/Nosferatu1400_e3797c.jpg?w=1024",
+    title: "Nosferatu",
+    year: "2024",
+    rating: "U/A",
+    season: "Horror/Mystery",
+    language: "3 languages",
+    description:
+      "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+  },
+   {
+    id: 13,
+    image:
+      "https://images.static-bluray.com/products/20/149368_2_large.jpg",
+    bannerImage:
+      "https://m.media-amazon.com/images/S/pv-target-images/5c1072deb699d35f36cf1f38783f9318f4a0cee44c703d27fb82848a7782a44c.jpg",
+    title: "The Apprentice",
+    year: "2024",
+    rating: "R",
+    season: "Drama/History",
+    language: "4 languages",
+    description:
+      "The story of how a young Donald Trump started his real estate business in 1970s and 80s New York with the helping hand of infamous lawyer Roy Cohn.",
+  },
+   {
+    id: 14,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    bannerImage:
+      "https://i.abcnewsfe.com/a/5805a2c5-5442-401d-b865-4ec0e4415577/dune-2-1-ap-bb-240228_1709145207400_hpMain.jpg",
+    title: "Dune: Part Two",
+    year: "2024",
+    rating: "PG-13",
+    season: "Sci-fi/Adventure",
+    language: "4 languages",
+    description:
+      "Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future.",
+  },
+   {
+    id: 15,
+    image:
+      "https://m.media-amazon.com/images/M/MV5BYTc2Y2U5MGUtODI4NS00YWRjLTk2OTUtYjA1NDdlMjNlYmYxXkEyXkFqcGc@._V1_.jpg",
+    bannerImage:
+      "https://www.hollywoodreporter.com/wp-content/uploads/2024/11/QOTR_EmilyBettRickards-H-2024.jpg?w=1296",
+    title: "Queen of the Ring",
+    year: "2024",
+    rating: "PG-13",
+    season: "Sport/Drama",
+    language: "3 languages",
+    description:
+      "A small town single mother embraces the danger as she dominates America's most masculine sport and becomes the first million dollar female athlete in history.",
+  },
+   {
+    id: 16,
+    image:
+      "https://movieswithtarek.com/wp-content/uploads/2024/12/img_0669.jpg?w=719",
+    bannerImage:
+      "https://hollywoodlife.com/wp-content/uploads/2024/08/babygirl-image-1-2-e1724764825416.jpg?fit=4700%2C3010",
+    title: "Babygirl",
+    year: "2024",
+    rating: "R",
+    season: "Thriller/Erotic",
+    language: "4 languages",
+    description:
+      "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much-younger intern.",
+  },
 ];
 
 // Function to create gallery items for both galleries
