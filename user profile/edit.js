@@ -1,15 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Select all profile cards that should be clickable
-    const profileCards = document.querySelectorAll(".profile-card:not(.add-profile)");
+function redirectToProfile(isNew = false, profileName = "") {
+    let url = "set-profile.html";
 
-    profileCards.forEach(card => {
+    if (isNew) {
+        url += "?new=true"; // If it's a new profile, set the new flag
+    } else if (profileName) {
+        url += `?profile=${encodeURIComponent(profileName)}`; // Pass the selected profile name
+    }
+
+    window.location.href = url;
+}
+
+// Add click event listeners to each profile
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".profile-card").forEach(card => {
         card.addEventListener("click", function () {
-            // Get the profile name from `data-profile` attribute
             const profileName = this.getAttribute("data-profile");
-            
-            if (profileName) {
-                // Redirect to set-profile.html with profile name as query parameter
-                window.location.href = `user-profile/set-profile.html?profile=${encodeURIComponent(profileName)}`;
+
+            if (this.classList.contains("add-profile")) {
+                redirectToProfile(true); // Open empty input for new profile
+            } else {
+                redirectToProfile(false, profileName); // Pass the profile name
             }
         });
     });
