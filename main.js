@@ -687,7 +687,7 @@ const favoritesData = [
   {
     id: 8,
     image:
-      "https://mountvicflicks.com.au/site/assets/files/14051/filmposter_packshot.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/2/2d/Flow_movie_poster.jpg",
     bannerImage:
       "https://m.media-amazon.com/images/S/pv-target-images/42dbfcf2215f0e3ecddbb5e46e10acdc50d79552d337ac07c93c6e9c66123a2d._SX1080_FMjpg_.jpg",
     title: "Flow",
@@ -2925,6 +2925,7 @@ const intlData = [
       "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much-younger intern.",
   },
 ];
+
 
 // Function to create gallery items for both galleries
 function createGalleries() {
