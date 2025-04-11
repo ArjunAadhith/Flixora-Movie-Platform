@@ -50,6 +50,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const banners = [
   {
+    image: "https://www.pinkvilla.com/images/2025-04/115795915_good-bad-ugly-8-1.jpg",
+    title: "./image/GBU logo.png",
+    description:
+      "A fearless don tries to change his ruthless ways and violent past to live peacefully with his family. However, his dark past continues to haunt him. He faces it head-on and overcomes it.",
+    year: "2025",
+    rating: "U/A 15+",
+    duration: "2h 30m",
+    languages: "4 languages",
+    genres: ["Action", "Thriller", "Drama"],
+  },
+  {
     image: "./image/oHPoF0Gzu8xwK4CtdXDaWdcuZxZ.jpg",
     title: "./image/Mufasa_The_Lion_King_logo.png",
     description:
