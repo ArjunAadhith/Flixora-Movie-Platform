@@ -642,7 +642,7 @@ const favoritesData = [
   {
     id: 4,
     image:
-      "https://www.pakistantoday.com.pk/wp-content/uploads/2024/12/sonic-3-696x1068.jpg",
+      "https://resizing.flixster.com/5yCDU3YndW2EIWaEwH1FydaMwZI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E0MGM5YTk5LTdhY2UtNGYzNS04NGVmLTJlNjRkYjljNjQ4ZS5qcGc=",
     bannerImage:
       "https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/08/sonic-3-knuckles-tails.jpg",
     title: "Sonic the Hedgehog 3",
