@@ -4,10 +4,10 @@
   "description": "Flixora - A Complete OTT Movie Platform\r Designed and developed both the Front-end and Back-end for Flixora, an OTT movie streaming platform, ensuring a seamless user experience and robust functionality.",
   "main": "main.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "parcel build index.html",
-  "start": "parcel index.html"
-},
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArjunAadhith/Flixora-Movie-Platform.git"
@@ -22,5 +22,8 @@
   "devDependencies": {
     "http-server": "^14.1.1",
     "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "flixora-movie-platform": "file:"
   }
 }
