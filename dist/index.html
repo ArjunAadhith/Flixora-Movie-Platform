@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Flixora - Watch Movies, TV Shows, Anime, Sports, Series & Live Specials
+    </title>
+    <link rel="icon" href="./image/flixora_logo-removebg-preview.png" />
+    <link rel="icon" href="./assets/flixora_logo-removebg-preview.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <nav class="top-navbar">
+      <div class="logo">
+        <img src="./image/logo.png" alt="logo" />
+      </div>
+      <div class="nav-right">
+        <form class="search-container">
+          <input type="text" id="search-box" placeholder="Search" />
+          <button type="submit" id="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+
+        <button
+          class="subscription"
+          onclick="window.location.href='subscription/sub.html';"
+        >
+          Subscription ➜
+        </button>
+
+        <!-- Navbar Profile Image -->
+        <img
+          src="./image/profile.jpg"
+          class="profile"
+          id="navbarProfile"
+          onclick="window.location.href='user profile/profile.html';"
+        />
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="banner">
+      <div class="content active">
+        <img src="" alt="Movie Title" class="movie-title" />
+        <h4>
+          <span id="year"></span><span><i id="rating"></i></span>
+          <span id="duration"></span><span id="languages"></span>
+        </h4>
+        <p id="description"></p>
+        <h4 id="genres"></h4>
+        <div class="button-container">
+          <a href="" class="watch-btn">
+            <span
+              class="iconify"
+              data-icon="solar:play-bold"
+              width="16"
+              height="16"
+            ></span>
+            Watch Now
+          </a>
+          <a
+            href=""
+            id="wishlist-btn"
+            class="nav-icon"
+            data-tooltip="Watchlist"
+          >
+            <span
+              class="iconify"
+              data-icon="uil:plus"
+              width="18"
+              height="18"
+            ></span>
+          </a>
+        </div>
+      </div>
+      <!-- Thumbnail Navigation -->
+      <div class="thumbnails-container">
+        <button id="prevBtn" class="arrow-button">&#10094;</button>
+        <div class="thumbnails">
+          <!-- Thumbnails dynamically inserted here -->
+        </div>
+        <button id="nextBtn" class="arrow-button">&#10095;</button>
+      </div>
+    </div>
+
+    <!-- movies list -->
+
+    <div class="wrapper">
+      <h3 class="new-movie">New Movies</h3>
+      <h4 class="View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+
+      <button class="scrolling-btn scrolling-left" id="scrollingLeft">
+        &#10094;
+      </button>
+
+      <div class="movies-container">
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/dragon 2025.png"
+            alt="Dragon Poster"
+          />
+          <div
+            class="movie-banner"
+            style="background-image: url('./image/new movies/Dragon.png')"
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/dragon logo.png"
+                alt="Dragon Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 16+ | 2h 30m | 5 Languages</p>
+              <p class="movie-description">
+                After a devastating breakup, troubled student Ragavan enters the
+                world of financial fraud.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/fff poster.png"
+            alt="Movie 3 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="background-image: url('./image/new movies/fff banner.jpeg')"
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/tFFFS logo.png"
+                alt="Movie 3 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 18+ | 4 Languages</p>
+              <p class="movie-description">
+                Marvel's First Family must balance heroism and family bonds as
+                they defend Earth from Galactus, a ravenous space god, and his
+                powerful herald, Silver Surfer.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/nilavuku en mel ennadi kobam poster.png"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/nilavuku en mel ennadi kobam.webp');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/nilavuku en mel ennadi kobam logo png.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 12+ | 2h 16m | Tamil</p>
+              <p class="movie-description">
+                A young man on the rebound from a broken relationship accepts
+                his parents' choice of a bride, only for his first-love to
+                reconnect with him.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/how to train your dragon poster.jpg"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/how to train your dragon banner.jpg');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/hoe to train your dragon.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 15+ | 1hr 38m | 9 Languages</p>
+              <p class="movie-description">
+                As an ancient threat looms over Berk, Hiccup and Toothless must
+                unite Vikings and dragons to secure their future and forge a new
+                path together.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/Thandel Poster-HD.webp"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/thandel banner.png');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/thandel logo.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | 2h 35m | 5 Languages</p>
+              <p class="movie-description">
+                An action drama about a fisherman in Srikakulam who gets caught
+                by the Pakistan forces in international waters.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/get set baby poster.jpg"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/get set baby banner.jpeg');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/get set baby logo.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 18+ | 2h 17m | Malayalam</p>
+              <p class="movie-description">
+                A lone male gynecologist in a female-dominated field falls for
+                someone who initially dislikes him. As feelings grow, he
+                navigates career struggles.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/Chhaava_poster.jpg"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/Chhaava banner.jpg');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/chhaava.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | 2h 35m | Hindi</p>
+              <p class="movie-description">
+                A historical drama based on the life of Chhatrapati Sambhaji
+                Maharaj, the son of Chhatrapati Shivaji Maharaj.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/zootopia 2 poster.png"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/Zootopia-2-banner.webp');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/zootopia logo.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | 1hr 50m | English</p>
+              <p class="movie-description">
+                Brave rabbit cop Judy Hopps and her friend, the fox Nick Wilde,
+                team up again to crack a new case, the most perilous and
+                intricate of their careers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/Elio poster.webp"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="background-image: url('./image/new movies/Elio banner.png')"
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/Elio logo.webp"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | 2h 09m | 9 Languages</p>
+              <p class="movie-description">
+                Elio, a space fanatic, embarks on a cosmic adventure, bonding
+                with aliens, facing an intergalactic crisis, and discovering his
+                true identity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/Undercover Party Crasher poster.jpg"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/Undercover Party Crasher poster banner.jpg');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/Undercover Party Crasher logo.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | U/A 18+| 1h 26m | 2 Languages</p>
+              <p class="movie-description">
+                An uptight undercover cop infiltrates a high school graduation
+                trip to a wild Brazilian beach party to gather evidence and take
+                down a criminal organization.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img
+            class="movie-poster"
+            src="./image/new movies/The Raja Saab poster.png"
+            alt="Movie 2 Poster"
+          />
+          <div
+            class="movie-banner"
+            style="
+              background-image: url('./image/new movies/The_Raja_Saab_banner');
+            "
+          >
+            <div class="movie-details">
+              <img
+                class="movie-logo"
+                src="./image/new movies/The Raja Saab logo png.png"
+                alt="Movie 2 Logo"
+              />
+              <button class="watch-now">Watch Now</button>
+              <button class="watchlist">+</button>
+              <p class="movie-info">2025 | 2h 48m | 5 Languages</p>
+              <p class="movie-description">
+                A thrilling heist movie where a group of skilled criminals
+                attempts the impossible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="scrolling-btn scrolling-right" id="scrollingRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Recommended movies -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Recommended For You</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+
+      <div class="gallery-container" id="gallery">
+        <div class="gallery-row" id="galleryRow"></div>
+      </div>
+
+      <div class="expanded-card" id="expandedCard">
+        <div class="close-button" id="closeButton">✕</div>
+        <div class="expanded-content" id="expandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+    <!-- All time favourites -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">All time favourites</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="favoritesScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="favoritesGallery">
+        <div class="gallery-row" id="favoritesRow"></div>
+      </div>
+
+      <div class="expanded-card" id="favoritesExpandedCard">
+        <div class="close-button" id="favoritesCloseButton">✕</div>
+        <div class="expanded-content" id="favoritesExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="favoritesScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Trending Now -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Trending Now</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="trendingScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="trendingGallery">
+        <div class="gallery-row" id="trendingRow"></div>
+      </div>
+
+      <div class="expanded-card" id="trendingExpandedCard">
+        <div class="close-button" id="trendingCloseButton">✕</div>
+        <div class="expanded-content" id="trendingExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="trendingScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- languages -->
+
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Watch in Your Languages</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/tamil.jpg" alt="Tamil" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/English.jpg" alt="English" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/hindi.png" alt="Hindi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/telgu.png" alt="Telgu" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/malayalam.jpg" alt="Malayalam" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/bengali.jpg" alt="Bengali" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/kannada.jpg" alt="Kannada" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/Marathi.jpg" alt="Marathi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/watch in your lang/japanse.jpg" alt="japanse" />
+        </div>
+        <div class="movie-banners">
+          <img
+            src="./image/watch in your lang/watch your fav lang.jpg"
+            alt="fav lang"
+          />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+    <!-- genres -->
+
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Genres</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/genres/romance.jpg" alt="romance" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/genres/family.jpg" alt="family" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/genres/Drama.jpg" alt="drama" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/genres/comedy.jpg" alt="comedy" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/reality.jpg" alt="reality" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Crime.jpg" alt="crime" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Adventure.jpg" alt="adventure" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Action.jpg" alt="action" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/thriller.jpg" alt="thriller" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Anime.jpg" alt="anime" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/horror.jpg" alt="horror" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Fantasy.jpg" alt="fantasy" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Animation.jpg" alt="animation" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Sci-fic.jpg" alt="sci-fi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/kids.jpg" alt="kids" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Mythology.jpg" alt="myth" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Superhero.jpg" alt="superhero" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Animals.jpg" alt="animals" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/historical.jpg" alt="historical" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/genres/Biopic.jpg" alt="biopic" />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+    <!-- studio -->
+
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Studios</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/studios/flixora.jpg" alt="flixora" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/studios/lyca.png" alt="lyca" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/studios/ags.png" alt="ags" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/studios/Wunderbar.jpg" alt="wunderbar" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/2d.png" alt="2d" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/Red_Giant_Movies.png" alt="red gaint" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/rkfi.jpg" alt="rkfi" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/sun picture.png" alt="sun picture" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/studios/disney.png" alt="disney" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/Marvel.png" alt="Marvel" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/Pixar.png" alt="pixar" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/HBO.png" alt="HBO" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/Peacock.png" alt="peacock" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/paramount.png" alt="paramount" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/star-wars.png" alt="start war" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/studios/national-geographic.png" alt="NG" />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+    <!-- Romantic -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Popular in romance </h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="newReleasesScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="newReleasesGallery">
+        <div class="gallery-row" id="newReleasesRow"></div>
+      </div>
+
+      <div class="expanded-card" id="newReleasesExpandedCard">
+        <div class="close-button" id="newReleasesCloseButton">✕</div>
+        <div class="expanded-content" id="newReleasesExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="newReleasesScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Action & Adventure -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Action & Adventure</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="actionScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="actionGallery">
+        <div class="gallery-row" id="actionRow"></div>
+      </div>
+
+      <div class="expanded-card" id="actionExpandedCard">
+        <div class="close-button" id="actionCloseButton">✕</div>
+        <div class="expanded-content" id="actionExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="actionScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Comedy -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Comedy</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="comedyScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="comedyGallery">
+        <div class="gallery-row" id="comedyRow"></div>
+      </div>
+
+      <div class="expanded-card" id="comedyExpandedCard">
+        <div class="close-button" id="comedyCloseButton">✕</div>
+        <div class="expanded-content" id="comedyExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="comedyScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Drama -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Drama</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="dramaScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="dramaGallery">
+        <div class="gallery-row" id="dramaRow"></div>
+      </div>
+
+      <div class="expanded-card" id="dramaExpandedCard">
+        <div class="close-button" id="dramaCloseButton">✕</div>
+        <div class="expanded-content" id="dramaExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="dramaScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Sci-Fi & Fantasy -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Sci-Fi & Fantasy</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scifiScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="scifiGallery">
+        <div class="gallery-row" id="scifiRow"></div>
+      </div>
+
+      <div class="expanded-card" id="scifiExpandedCard">
+        <div class="close-button" id="scifiCloseButton">✕</div>
+        <div class="expanded-content" id="scifiExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scifiScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- sports -->
+
+    <div class="movie-wrapper">
+      <h3 class="Recommended-movie">Sports</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="scrollLeft">&#10094;</button>
+      <div class="movie-container" id="movieContainer">
+        <div class="movie-banners">
+          <img src="./image/sports/kabaddi.jpg" alt="kabaddi" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/sports/cricket.jpg" alt="cricket" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/sports/Football.jpg" alt="football" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/sports/athletic.jpg" alt="athletic" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/sports/motorsports.jpg" alt="motorsports" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/sports/Badmiton.jpg" alt="badmiton" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/sports/baseball.jpg" alt="baseball" />
+        </div>
+        <div class="movie-banners">
+          <img src="./image/sports/Hockey.jpg" alt="hockey" />
+        </div>
+
+        <div class="movie-banners">
+          <img src="./image/sports/tennis.jpg" alt="tennis" />
+        </div>
+      </div>
+      <button class="scroll-btn scroll-right" id="scrollRight">&#10095;</button>
+    </div>
+
+    <!-- Horror & Thriller -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Horror & Thriller</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="horrorScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="horrorGallery">
+        <div class="gallery-row" id="horrorRow"></div>
+      </div>
+
+      <div class="expanded-card" id="horrorExpandedCard">
+        <div class="close-button" id="horrorCloseButton">✕</div>
+        <div class="expanded-content" id="horrorExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="horrorScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Anime -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Anime</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="animeScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="animeGallery">
+        <div class="gallery-row" id="animeRow"></div>
+      </div>
+
+      <div class="expanded-card" id="animeExpandedCard">
+        <div class="close-button" id="animeCloseButton">✕</div>
+        <div class="expanded-content" id="animeExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="animeScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Family & Kids -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">Family & Kids</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="familyScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="familyGallery">
+        <div class="gallery-row" id="familyRow"></div>
+      </div>
+
+      <div class="expanded-card" id="familyExpandedCard">
+        <div class="close-button" id="familyCloseButton">✕</div>
+        <div class="expanded-content" id="familyExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="familyScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- International Cinema -->
+    <div class="movie-wrapper bg-color">
+      <h3 class="Recommended-movie">International Cinema</h3>
+      <h4 class="Rec-View-all">
+        View All
+        <span class="iconify" id="arr" data-icon="ep:arrow-right-bold"></span>
+      </h4>
+      <button class="scroll-btn scroll-left" id="intlScrollLeft">
+        &#10094;
+      </button>
+
+      <div class="gallery-container" id="intlGallery">
+        <div class="gallery-row" id="intlRow"></div>
+      </div>
+
+      <div class="expanded-card" id="intlExpandedCard">
+        <div class="close-button" id="intlCloseButton">✕</div>
+        <div class="expanded-content" id="intlExpandedContent"></div>
+      </div>
+      <button class="scroll-btn scroll-right" id="intlScrollRight">
+        &#10095;
+      </button>
+    </div>
+
+    <!-- Bottom Navbar -->
+    <div class="bottom-hover-area"></div>
+    <nav class="bottom-navbar">
+      <a href="./index.html" class="nav-icon" id="home" data-tooltip="Home">
+        <span
+          class="iconify"
+          data-icon="mynaui:home-solid"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+      <a
+        href="./Bottom Nav bar/tv.html"
+        class="nav-icon"
+        id="tv"
+        data-tooltip="TV"
+      >
+        <span
+          class="iconify"
+          data-icon="mdi:television"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+      <a
+        href="./Bottom Nav bar/movie.html"
+        class="nav-icon"
+        id="movie"
+        data-tooltip="Movies"
+      >
+        <span
+          class="iconify"
+          data-icon="icon-park-solid:movie"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+      <a
+        href="./Bottom Nav bar/anime.html"
+        class="nav-icon"
+        id="anime"
+        data-tooltip="Anime"
+      >
+        <span
+          class="iconify"
+          data-icon="file-icons:animestudio"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+      <a
+        href="./Bottom Nav bar/sport.html"
+        class="nav-icon"
+        id="sport"
+        data-tooltip="Sports"
+      >
+        <span
+          class="iconify"
+          data-icon="icon-park-solid:sport"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+      <a
+        href="./Bottom Nav bar/categories.html"
+        class="nav-icon"
+        id="categories"
+        data-tooltip="Categories"
+      >
+        <span
+          class="iconify"
+          data-icon="tabler:category-filled"
+          data-width="25"
+          data-height="30"
+        ></span>
+      </a>
+    </nav>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-overlay">
+        <div class="footer-container">
+          <!-- Branding -->
+          <div class="footer-brand">
+            <img
+              src="./image/flixora_logo-removebg-preview.png"
+              alt="Streaming App Logo"
+              class="footer-logo"
+            />
+            <h2>Flixora</h2>
+          </div>
+
+          <!-- Navigation Links -->
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Movies</a></li>
+              <li><a href="#">TV Shows</a></li>
+              <li><a href="#">Originals</a></li>
+              <li><a href="#">My Account</a></li>
+            </ul>
+          </nav>
+
+          <!-- Legal & Help -->
+          <div class="footer-info">
+            <ul>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="footer-social">
+            <h4>Connect with Us</h4>
+            <a href="" id="facebook" class="facebook">
+                <span class="iconify" data-icon="ri:facebook-fill"></span>
+            </a>
+            <a href="" id="twitter" class="twitter">
+                <span class="iconify" data-icon="ri:twitter-x-fill"></span>
+            </a>
+        </div>
+        
+
+          <!-- Copyright -->
+          <div class="footer-copyright">
+            <p>&copy; 2025 Flixora, Inc. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
